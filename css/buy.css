@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: 'Russo One', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1920px;
+    height: 1300px;
+    background-color: #201f28;
+}
+
+.container .area{
+    width: 1920px;
+    height: 1300px;
+    background-color: transparent;
+}
+
+.container .area .banner{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: #19181e;
+    width: 1100px;
+    height: 650px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container .area .banner img{
+    width: 1100px;
+    height: 650px;
+    transition: .5s;
+}
+
+/**/
+
+.container .area .card{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 80px;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    background-color: #19181e;
+    border-radius: 15px;
+}
+
+.container .area .card .image{
+    width: 500px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.container .area .card .image img{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.container .area .card .stok{
+    width: 500px;
+    margin-top: 20px;
+    height: 60px;
+    background-color: #057a55;
+    border-radius: 10px;
+}
+
+/**/
+
+.container .area .card .stok .circle{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 120px;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.container .area .card .stok .circle i{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .area .card .stok #stokTxt{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 160px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+.container .area .card #desc{
+    margin-top: 10px;
+    color: #9fb0bf;
+    font-size: 17px;
+}
+
+.container .area .price{
+    margin-top: 20px;
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #55f909;
+    padding: 20px;
+}
+
+.container .area .price #mainSale{
+    margin-left: 15px;
+    margin-top: -10px;
+    color: #55f909;
+}
+
+.container .area .price #saleTxt{
+    color: #55f909;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 17px;
+}
+
+.container .area .card #mainPrice{
+    margin-top: -100px;
+    margin-left: 150px;
+    font-size: 19px;
+    filter: brightness(50%);
+}
+
+.container .area .card #salePrice{
+    margin-top: 18px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container .area .card #buyBtn{
+    margin-top: 40px;
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    color: #efa406;
+    outline: none;
+    border: 3px solid #efa406;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px #efa406;
+}
+
+.container .area .boxs{
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 120px;
+    width: 1670px;
+    height: 350px;
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+}
+
+.container .area .boxs .boxOne,
+.container .area .boxs .boxTwo,
+.container .area .boxs .boxThree,
+.container .area .boxs .boxFour{
+    background-color: #19181e;
+    width: 400px;
+    height: 350px;
+    margin-left: 15px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.container .area .boxs .boxOne:hover,
+.container .area .boxs .boxTwo:hover,
+.container .area .boxs .boxThree:hover,
+.container .area .boxs .boxFour:hover{
+    box-shadow: 0px 0px 10px 2px #efa406;
+}
+
+/**/
+
+.container .area .boxs .boxOne img,
+.container .area .boxs .boxTwo img,
+.container .area .boxs .boxThree img,
+.container .area .boxs .boxFour img{
+    
+    width: 400px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/**/
+
+.container .area .boxs .boxOne #capOne,
+.container .area .boxs .boxTwo #capTwo,
+.container .area .boxs .boxThree #capThree,
+.container .area .boxs .boxFour #capFour{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/**/
+
+.container .area .boxs .boxOne #priceOne,
+.container .area .boxs .boxTwo #priceTwo,
+.container .area .boxs .boxThree #priceThree,
+.container .area .boxs .boxFour #priceFour{
+    margin-left: 20px;
+    margin-top: 65px;
+    font-size: 25px;
+}
+
+/**/
+
+.container .area .boxs .boxOne #buyOne,
+.container .area .boxs .boxTwo #buyTwo,
+.container .area .boxs .boxThree #buyThree,
+.container .area .boxs .boxFour #buyFour{
+    margin-left: 300px;
+    margin-top: -30px;
+    font-size: 20px;
+    color: #efa406;
+}

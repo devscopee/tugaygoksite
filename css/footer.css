@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    margin-top: 550px;
+    width: 1920px;
+    background-color: #111114;
+    height: 250px;
+}
+.footer-logo{
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 50px;
+}
