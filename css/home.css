@@ -75,3 +75,49 @@
 .main .container .slider-container .buttons .next{
     border-radius: .5rem 0 0 .5rem;
 }
+
+
+
+
+
+
+
+
+
+/*purchase*/
+
+.purchase{
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.purchase .buy{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    background: #db8f16;
+    display: flex;
+    align-items: center;
+    padding-right: .75rem;
+    text-align: center;
+    padding-inline: .15rem .75rem;
+    justify-content: space-between;
+}
+
+
+.purchase .cost{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 2.5rem;
+    background: #d52525;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+.purchase .cost:hover{
+    background: #d5252595;
+}
