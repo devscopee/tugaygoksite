@@ -147,7 +147,7 @@
                     <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
                 </form>
             </div>
-
+            <!-- ORTA KATEGORİ -->
             <div class="product-div">
                 <div class="gun-images">
                     <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
@@ -232,7 +232,7 @@
                     <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
                 </form>
             </div>
-
+            <!-- EN ALT KATEGORİ -->
             <div class="product-div">
                 <div class="gun-images">
                     <img class="gun" id="test1" src="img/random_4_u.png" style="margin-top: 1rem;">
