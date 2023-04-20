@@ -45,7 +45,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 0rem .5rem .5rem 0rem;
-    background: #db8f1680;
+    background: #ff9d00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
 }
 
 .header .container .finder .search:hover{
-    background: #db8f1690;
+    background: #db8f16a2;
 }
 
 .header .container .buttons{
@@ -73,20 +73,20 @@
 }
 
 .header .container .buttons .button.add{
-    background: #db8f1680;
+    background: #ff9d00;
     transition: background 300ms;
 }
 
 .header .container .buttons .button.add:hover{
-    background: #db8f1690;
+    background: #db8f16a2;
 }
 
 .header .container .buttons .button.login{
-    background: #db8f1620;
+    background: #ff9d00;
     border: .15rem solid #db8f1660;
     transition: background 300ms;
 }
 
 .header .container .buttons .button.login:hover{
-    background: #db8f1640;
+    background: #db8f16a2;
 }

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-left: 9.5rem;
     margin-bottom: 4rem;
 }
 
@@ -16,7 +17,7 @@
 }
 
 .directions .section.games.active{
-    background: #db8f1620;
+    background: #db8f16ad;
 }
 
 .directions .section.pubgm{
@@ -24,7 +25,7 @@
 }
 
 .directions .section.pubgm.active{
-    background:linear-gradient(to left, #db8f1620, #ffffff01) ;
+    background:linear-gradient(to left, #db8f16, #ffffff01) ;
 }
 
 .directions .section.valo{
@@ -32,5 +33,5 @@
 }
 
 .directions .section.valo.active{
-    background: linear-gradient(to right, #db8f1620, #ffffff01);
+    background: linear-gradient(to right, #db8f16, #ffffff01);
 }

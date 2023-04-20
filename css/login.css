@@ -1,476 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-body::-webkit-scrollbar{
-    display: none;
-}
-
-body{
-    -webkit-user-select: none;
-    user-select: none;
-    font-family: 'Russo One', sans-serif;
-}
-
-.container{
-    margin: 0 auto;
-    width: 1920px;
-    height: 1080px;
-    background-color: #201f28;
-}
-
-/*WEBSITE SETTINGS*/
-
-.container .area{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 175px;
-    width: 1600px;
-    height: 850px;
-    background-color: transparent;
+.main{
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container .area .infArea{
-    width: 780px;
-    height: 850px;
-    background-color: transparent;
-}
-
-.container .area .infArea .boxTwo,
-.container .area .infArea .boxFive{
-    height: 130px;
-    width: 725px;
-    padding: 20px;
-}
-
-/**/
-
-.container .area .infArea .boxOne{
-    height: 120px;
-    width: 725px;
-    background-color: transparent;
-}
-
-.container .area .infArea .boxOne #logo{
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 15px;
-    width: 80px;
-    height: 80px;
-}
-
-.container .area .infArea .boxOne #logoText{
-    position: absolute;
-    font-size: 40px;
-    color: #ff6f00;
-    margin-top: 35px;
-    margin-left: 125px;
-}
-
-/**/
-
-.container .area .infArea .boxTwo{
-    background-color: transparent;
-}
-
-.container .area .infArea .boxTwo .circle{
-    position: absolute;
-    background-color: #ff6f00;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-}
-
-.container .area .infArea .boxTwo .circle i{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #ff6f00;
-}
-
-.container .area .infArea .boxTwo #cap{
-    color: #6a5943;
-    background-color: transparent;
-    font-size: 25px;
-    width: 310px;
-    margin-left: 30px;
-}
-
-.container .area .infArea .boxTwo #text{
-    background-color: transparent;
-    width: 580px;
-    height: 80px;
-    padding: 10px;
-    font-size: 20px;
-    color: #6a5943;
-}
-
-
-/**/
-
-.container .area .infArea .boxThree{
-    background-color: transparent;
-}
-
-.container .area .infArea .boxThree{
-    width: 725px;
-    height: 180px;
-    padding: 20px;
-}
-
-.container .area .infArea .boxThree .circle{
-    position: absolute;
-    background-color: #ff6f00;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-}
-
-.container .area .infArea .boxThree .circle i{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #ff6f00;
-}
-
-.container .area .infArea .boxThree #cap{
-    color: #6a5943;
-    background-color: transparent;
-    font-size: 25px;
-    width: 310px;
-    margin-left: 30px;
-}
-
-.container .area .infArea .boxThree #text{
-    background-color: transparent;
-    width: 690px;
-    height: 80px;
-    padding: 10px;
-    font-size: 20px;
-    color: #6a5943;
-}
-
-/**/
-
-.container .area .infArea .boxFour{
-    background-color: transparent;
-}
-
-.container .area .infArea .boxFour{
-    width: 725px;
-    height: 130px;
-    padding: 20px;
-}
-
-.container .area .infArea .boxFour .circle{
-    position: absolute;
-    background-color: #ff6f00;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-}
-
-.container .area .infArea .boxFour .circle i{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #ff6f00;
-}
-
-.container .area .infArea .boxFour #cap{
-    color: #6a5943;
-    background-color: transparent;
-    font-size: 25px;
-    width: 710px;
-    margin-left: 30px;
-}
-
-.container .area .infArea .boxFour #text{
-    background-color: transparent;
-    width: 580px;
-    height: 80px;
-    padding: 10px;
-    font-size: 20px;
-    color: #6a5943;
-}
-
-/**/
-
-.container .area .infArea .boxFive{
-    background-color: transparent;
-}
-
-.container .area .infArea .boxFive ul{
-    margin-top: 15px;
-    list-style-type: none;
+.main .logo-section{
+    width: 20rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #db8f1620;
+    padding-block: .5rem;
+    border-radius: .25rem .25rem 0 0;
 }
 
-.container .area .infArea .boxFive ul li{
-    font-size: 19px;
-    margin-left: 25px;
+.main .logo-section img{
+    width: 1.75rem;
+    margin-inline: .75rem;
 }
 
-.container .area .infArea .boxFive ul li a{
-    color: #ff6f00;
-    text-decoration: none;
-    filter: brightness(50%);
+.main .logo-section p{
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.container .area .infArea .boxFive ul li a:hover{
-    text-decoration: underline;
-    filter: brightness(100%);
+.main .login-form{
+    width: 20rem;
+    height: auto;
+    background: #dbdbdb;
+    color: #0f0f0f;
+    border-radius: 0 0 .25rem .25rem;
+    padding: 1.25rem;
 }
 
-/**/
-
-.container .area .regArea{
-    width: 800px;
-    height: 800px;
-    background-color: transparent;
-    padding: 25px;
+.main .login-form .btn-text{
+    font-size: .8rem;
+    letter-spacing: .06rem;
 }
 
-.container .area .regArea .bigArea{
-    width: 780px;
-    height: 800px;
-    background-color: #19181e;
-    border-radius: 20px;
+.main .login-form .greeting{
+    margin-bottom: 1rem;
 }
 
-/**/
-
-.container .area .regArea .bigArea .regOne{
-    background-color: transparent;
-    width: 740px;
-    height: 150px;
-    padding: 20px;
+.main .login-form .greeting p{
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
-.container .area .regArea .bigArea .regOne button{
-    margin-top: 25px;
-    margin-left: 25px;
-    background-color: #896e4f;
-    border: 2px solid #ff6f00;
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    width: 320px;
-    height: 60px;
+.main .login-form .inputs{
+    margin-bottom: 1rem;
 }
 
-/**/
-
-.container .area .regArea .bigArea .regTwo{
-    background-color: transparent;
-    width: 740px;
-    height: 20px;
-    padding: 20px;
+.main .login-form .inputs .input{
+    margin-bottom: .5rem;
 }
 
-.container .area .regArea .bigArea .regTwo #hrOne{
-    width: 270px;
-    height: 5px;
-    border: none;
-    background-color: #6a5e43;
-    border-radius: 5px;
+.main .login-form .inputs .input input{
+    all: unset;
+    width: calc(100% - 1.75rem);
+    height: 2.25rem;
+    background: #0f0f0f10;
+    border: .1rem solid #0f0f0f30;
+    border-radius: .3rem;
+    padding-inline: .75rem;
 }
 
-.container .area .regArea .bigArea .regTwo #text{
-    position: absolute;
-    margin-top: -18px;
-    margin-left: 340px;
-    font-size: 25px;
-    color: #b4a176;
+.main .login-form .inputs .input p{
+    font-size: .9rem;
+    font-weight: 500;
 }
 
-.container .area .regArea .bigArea .regTwo #hrTwo{
-    position: absolute;
-    width: 270px;
-    height: 5px;
-    border: none;
-    background-color: #6a5e43;
-    margin-top: -4px;
-    margin-left: 470px;
-    border-radius: 5px;
+.main .login-form .login{
+    width: 100%;
+    height: 2.25rem;
+    border-radius: .25rem;
+    background: #db8f16;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 300ms;
 }
 
-/**/
-
-.container .area .regArea .bigArea .regThree{
-    background-color: transparent;
-    width: 740px;
-    height: 250px;
-    padding: 20px;
+.main .login-form .login:hover{
+    background: #db8f16dd;
 }
 
-.container .area .regArea .bigArea .regThree #em{
-    background-color: #6a5943;
-    border: 2px solid #6a5943;
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 650px;
-    height: 60px;
-    border-radius: 20px;
-    padding-left: 20px;
-    color: white;
-    font-size: 20px;
-    outline: none;
+.main .login-form .line{
+    width: 100%;
+    height: .1rem;
+    background: #0f0f0f10;
+    margin-block: .75rem;
 }
 
-.container .area .regArea .bigArea .regThree #em:focus{
-    border: 2px solid #ff6f00;
+.main .login-form .special-situations{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+}
+.main .login-form .special-situations a{
+    font-size: .8rem;
+    color: #962a2a;
+    font-weight: 500;
 }
 
-.container .area .regArea .bigArea .regThree #epostaLbl{
-    font-size: 20px;
-    margin-left: 25px;
-    color: #6a5943;
+.main .login-form .quick-login-options .login-option{
+    width: 100%;
+    height: 2.25rem;
+    padding-inline: .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .75rem;
+    cursor: pointer;
+    transition: background 300ms;
 }
 
-/**/
-
-.container .area .regArea .bigArea .regThree #s{
-    background-color: #6a5943;
-    border: 2px solid #6a5943;
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 650px;
-    height: 60px;
-    border-radius: 20px;
-    padding-left: 20px;
-    color: white;
-    font-size: 20px;
-    outline: none;
+.main .login-form .quick-login-options .login-option i{
+    margin-right: .25rem;
+    font-size: 1.1rem;
 }
 
-.container .area .regArea .bigArea .regThree #s:focus{
-    border: 2px solid #ff6f00;
+.main .login-form .quick-login-options .steam-login{
+    background: #2a475e;
 }
 
-.container .area .regArea .bigArea .regThree #sifreLbl{
-    font-size: 20px;
-    margin-left: 25px;
-    margin-top: 50px;
-    color: #6a5943;
+.main .login-form .quick-login-options .steam-login:hover{
+    background: #2a475edd;
 }
 
-/**/
-
-.container .area .regArea .bigArea .regFour{
-    background-color: transparent;
-    width: 740px;
-    height: 40px;
-    padding: 20px;
+.main .login-form .quick-login-options .discord-login{
+    background: #7289da;
 }
 
-/*SADECE CHECKBOX DESING*/
-
-input[type="checkbox"]{
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: transparent;
-    margin: 0;
-    font: inherit;
-    color: #6a5943;
-    width: 25px;
-    height: 25px;
-    border: 2px solid #6a5943;
-    border-radius: 5px;
-    transform: translateY(-2px);
-  
-    display: grid;
-    place-content: center;
-}
-  
-input[type="checkbox"]::before{
-    content: "";
-    width: 15px;
-    height: 15px;
-    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-    transform: scale(0);
-    transform-origin: bottom left;
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 2px 2px #ff6f00;
-    background-color: #ff6f00;
-}
-  
-input[type="checkbox"]:checked::before{
-    transform: scale(1);
-}
-  
-input[type="checkbox"]:focus{
-    outline: max(2px, 2px) solid #6a5943;
-    outline-offset: max(2px, 2px);
-}
-  
-input[type="checkbox"]:disabled{
-    color: var(#6a5943);
-    cursor: not-allowed;
-}
-
-/**/
-
-.container .area .regArea .bigArea .regFour #pUnRemember a{
-    position: absolute;
-    font-size: 19px;
-    margin-top: -23px;
-    margin-left: 450px;
-    text-decoration: none;
-    color: #ff6f00;
-}
-
-.container .area .regArea .bigArea .regFour #pUnRemember a:hover{
-    text-decoration: underline;
-}
-
-/**/
-
-.container .area .regArea .bigArea #lg{
-    margin-top: 15px;
-    margin-left: 50px;
-    width: 650px;
-    height: 60px;
-    background-color: #6a5943;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-family: 'Russo One', sans-serif;
-    color: white;
-    filter: brightness(90%);
-}
-
-.container .area .regArea .bigArea #lg:focus{
-    outline: 4px solid #6a5943;
-    filter: brightness(80%);
-}
-
-/**/
-
-.container .area .regArea .bigArea #register{
-    margin-top: 30px;
-    margin-left: 20px;
-    font-size: 20px;
-    color: #ff6f00;
-}
-
-.container .area .regArea .bigArea #register a{
-    text-decoration: none;
-    color: #ff6f00;
-}
-
-.container .area .regArea .bigArea #register a:hover{
-    text-decoration: underline;
+.main .login-form .quick-login-options .discord-login:hover{
+    background: #7289dadd;
 }
