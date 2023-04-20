@@ -14,15 +14,13 @@
     text-align: center;
 }
 
-.main .text{
+.main.text{
     margin-bottom: .5rem;
-    margin-left: 11rem;
 }
 
 .main .line{
     width: 100%;
     height: .2rem;
-    margin-left: 9%;
     background: #ffffff10;
     margin-bottom: 1rem;
 }
@@ -30,7 +28,6 @@
 .main .container .slider-container{
     width: 100%;
     height: 20rem;
-    margin-left: 8rem;
 }
 
 .main .container .slider-container .image{
@@ -66,20 +63,18 @@
     align-items: center;
     cursor: pointer;
     color: #fff;
-    background: #db8f169c;
+    background: #db8f1620;
     font-size: 1.5rem;
     user-select: none;
 }
 
 .main .container .slider-container .buttons .prev{
     margin-top: -7rem;
-    margin-left: 9.65%;
+    margin-left: 6.6%;
     border-radius: 0 .5rem .5rem 0;
 }
 
 .main .container .slider-container .buttons .next{
-    position: absolute;
-    margin-left: 86.350%;
     border-radius: .5rem 0 0 .5rem;
     margin-top: -7rem;
 }
@@ -133,7 +128,7 @@
     width: 15.625rem;
     height: 17.8125rem;
     float: left;
-    margin-left: 3.250rem;
+    margin-left: 2.125rem;
     border-radius: .625rem;
     margin-top: .625rem;
     transition: 0.3s;
@@ -144,7 +139,7 @@
 
 .product-div span{
     display: inline;
-    margin-left: 80.625rem;
+    margin-left: 50.625rem;
     white-space: nowrap;
     font-size: 1rem;
     font-weight: bold;
@@ -193,7 +188,6 @@
 }
 
 .product-div #btn{
-    border: .125rem solid #ff6f00;
     margin-left: 18%;
 }
 
@@ -202,7 +196,12 @@
     position: absolute;
     margin-top: .3125rem;
     margin-left: 0rem;
-    border: .125rem solid green;
+    border-radius: .5rem;
+    background: green;
+}
+
+.product-div #buy:hover{
+    background: rgba(0, 128, 0, 0.507);
 }
 
 .product-div .old-price-txt{
@@ -236,6 +235,11 @@
 .gun-images:hover .case{
     filter: brightness(50%);
 }
+
+/* .gun-images {
+    width: 15rem;
+    object-fit: contain;
+}  */
 
 
 .gun-images:hover .gun{

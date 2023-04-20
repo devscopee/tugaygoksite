@@ -58,12 +58,12 @@
                 </div>
             </div>
             <br><br>
-            <p class='text'>Oyunlar</p>
+            <p class='text'>Pubg Mobile</p>
             <div class='line'></div>
             <!-- Alt kısım kasalar kısmı -->
             <div class="product-div">
                 <div class="gun-images">
-                    <img class="gun" src="img/5676567.png" style="margin-top: -1rem;">
+                    <img class="gun" src="img/666 (1).png">
                     <img class="case" src="img/78878.png" alt="">
                 </div>
                 <div class="title">
@@ -97,8 +97,8 @@
 
             <div class="product-div">
                 <div class="gun-images">
-                    <img class="gun" src="img/gppg.png" style="margin-top: -1rem;">
-                    <img class="case" src="img/54.png" alt="">
+                    <img class="gun" src="img/gggg.png">
+                    <img class="case" src="img/86.png" alt="">
                 </div>
                 <div class="title" style="margin-left: 3.5rem;">
                     GECE MAVİSİ RANDOM UC
@@ -116,7 +116,7 @@
 
             <div class="product-div" style="margin-left: 4rem;">
                 <div class="gun-images">
-                    <img class="gun" src="img/gggg.png" style="margin-top: -1rem;">
+                    <img class="gun" src="img/gggg.png">
                     <img class="case" src="img/86.png" alt="">
                 </div>
                 <div class="title" style="margin-left: 3.125rem;">
@@ -131,6 +131,91 @@
                 </form>
             </div>
 
+            <div class="product-div">
+                <div class="gun-images">
+                    <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
+                    <img class="case" src="img/eeee.png" alt="">
+                </div>
+                <div class="title" style="margin-left: 4rem;">
+                    SURREAL RANDOM UC
+                </div>
+                <del>
+                    <p class="old-price-txt"></p>
+                </del>
+                <form action="buy.php" method="post">
+                    <input type="button" value="₺ 500" id="btn">
+                    <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
+                </form>
+            </div>
+
+            <div class="product-div">
+                <div class="gun-images">
+                    <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
+                    <img class="case" src="img/eeee.png" alt="">
+                </div>
+                <div class="title" style="margin-left: 4rem;">
+                    SURREAL RANDOM UC
+                </div>
+                <del>
+                    <p class="old-price-txt"></p>
+                </del>
+                <form action="buy.php" method="post">
+                    <input type="button" value="₺ 500" id="btn">
+                    <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
+                </form>
+            </div>
+
+            <div class="product-div">
+                <div class="gun-images">
+                    <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
+                    <img class="case" src="img/eeee.png" alt="">
+                </div>
+                <div class="title" style="margin-left: 4rem;">
+                    SURREAL RANDOM UC
+                </div>
+                <del>
+                    <p class="old-price-txt"></p>
+                </del>
+                <form action="buy.php" method="post">
+                    <input type="button" value="₺ 500" id="btn">
+                    <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
+                </form>
+            </div>
+
+            <div class="product-div">
+                <div class="gun-images">
+                    <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
+                    <img class="case" src="img/eeee.png" alt="">
+                </div>
+                <div class="title" style="margin-left: 4rem;">
+                    SURREAL RANDOM UC
+                </div>
+                <del>
+                    <p class="old-price-txt"></p>
+                </del>
+                <form action="buy.php" method="post">
+                    <input type="button" value="₺ 500" id="btn">
+                    <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
+                </form>
+            </div>
+
+            <div class="product-div">
+                <div class="gun-images">
+                    <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
+                    <img class="case" src="img/eeee.png" alt="">
+                </div>
+                <div class="title" style="margin-left: 4rem;">
+                    SURREAL RANDOM UC
+                </div>
+                <del>
+                    <p class="old-price-txt"></p>
+                </del>
+                <form action="buy.php" method="post">
+                    <input type="button" value="₺ 500" id="btn">
+                    <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1rem;">
+                </form>
+            </div>
+            
             <div class="product-div">
                 <div class="gun-images">
                     <img class="gun" id="test1" src="img/kupa.png" style="margin-top: -3rem;">
@@ -232,23 +317,6 @@
                     <input type="submit" value="SATIN AL" id="buy" style="margin-top: 0.3rem; margin-left: 1.20rem;">
                 </form>
             </div>
-        </div>
-        <div class="product-div">
-            <div class="gun-images">
-                <img class="gun" src="img/sdsdw.png" style="width:  98.4375rem; height: 20.625rem; margin-top: 70.25rem; margin-left: -98rem; border-radius: 0.9375rem; transition: 0.3s; background-repeat: no-repeat; background-size: cover;">
-                <img class="case" src="img/er.png" alt="" style="width:  98.4375rem; height: 20.625rem; margin-top: 70.25rem; margin-left: -98rem; border-radius: 0.9375rem; background-repeat: no-repeat; background-size: cover;">
-            </div>
-            <div class="title" style="margin-left: -50rem;">
-                RANDOM KNIFE CASE
-            </div>
-            <del>
-                <p class="old-price-txt" style="position:absolute; margin-left: -60rem; margin-top: 0.9375rem;">%150</p>
-            </del>
-            <form action="buy.php" method="post">
-                <input type="button" value="₺ 250" id="btn" style="position:absolute; margin-left: -52rem; margin-top:0.625rem">
-                <input type="button" value="SATIN AL" id="buy" style="position:absolute; margin-left: -45rem; margin-top:0.6rem">
-            </form>
-
         </div>
     </main>
 
