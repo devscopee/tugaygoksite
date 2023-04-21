@@ -22,7 +22,7 @@
     width: 100%;
     height: .2rem;
     background: #ffffff10;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .main .container .slider-container{
@@ -87,44 +87,11 @@
 
 
 
-.items{
+.main .container .items{
     display: grid;
-    
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
 }
-
-.items .product{
-    width: 15.6rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.items .product .item-images:hover .case{
-    filter: brightness(50%);
-}
-
-
-.items .product .item-images:hover .gun{
-    transform: scale(1.2);
-    filter: brightness(90%);
-}   
-
-.items .product .product-description{
-    margin-block: .5rem;
-    font-size: 1.1rem;
-    opacity: .9;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes loader {
@@ -166,16 +133,14 @@
       transform: translateY(-1.875rem);
       opacity: 0.5;
     }
-  }
+}
 
 
-  .product-div{
-    width: 15.625rem;
-    height: 17.8125rem;
+.main .container .items .product-div{
+    width: 100%;
+    height: auto;
     float: left;
-    margin-left: 2.125rem;
     border-radius: .625rem;
-    margin-top: .625rem;
     transition: 0.3s;
     padding-bottom: 4.5vh;
     background-image: url('blue_header');
@@ -185,171 +150,61 @@
     flex-direction: column;
 }
 
-.product-div span{
-    display: inline;
-    margin-left: 50.625rem;
-    white-space: nowrap;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: .0625rem;
+.main .container .items .gun-images{
+    display: flex;
+    justify-content: center;
 }
 
-.title{
-    margin-left: 3rem;
-    white-space: nowrap;
-}
-
-.case, .gun{
+.main .container .items .gun-images .case,
+.main .container .items .gun-images .gun{
     transition: 300ms;
+    width: 16rem;
 }
 
-.products .product-div img{
-    background-size: auto;
-    background-repeat: no-repeat;
-    width: 18.75rem;
-    height: 12.6875rem;
-    border-top-right-radius: .625rem;
-    border-top-left-radius: .625rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-
-.products p{
-    margin-top: .5rem;
-    margin-left: 1.25rem;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.product-div input{
-    background-color: transparent;
-    color: white;
-    border: none;
-    width: 6.25rem;
-    height: 2.1875rem;
-    cursor: pointer;
-    margin-top: .3125rem;
-    transition: 0.2s;
-    letter-spacing: .125rem;
-    border-radius: .1563rem;
-    font-weight: 600;
-    
-    font-size: 1rem;
-    margin-left: -6.25rem;
-}
-
-.product-div #btn{
-    margin-left: 18%;
-}
-
-
-.product-div #buy{
-    position: absolute;
-    margin-top: .3125rem;
-    margin-left: 0rem;
-    border-radius: .5rem;
-    background: green;
-}
-
-.product-div #buy:hover{
-    background: rgba(0, 128, 0, 0.507);
-}
-
-.product-div .old-price-txt{
-    color:#ff0000;
-    text-decoration:line-through;
-}
-
-
-.deposit-box{
-    width: 31.25rem;
-    height: 32.8125rem;
-    margin-left: 11.5rem;
-    margin-top: 3.125rem;
-    border-radius: .625rem;
-    background-color: red;
-}
-
-
-.product-div .price{
-    font-size: 1.5rem;
-    color:#ff6f00;
-}
-
-
-.gun {
+.main .container .items .gun-images .gun {
     position: absolute;
     z-index: 1;
 }
 
-
-.gun-images:hover .case{    
+.main .container .items .gun-images:hover .case{    
     filter: brightness(50%);
 }
 
-/* .gun-images {
-    width: 15rem;
-    object-fit: contain;
-}  */
-
-
-.gun-images:hover .gun{
+.main .container .items .gun-images:hover .gun{
     transform: scale(1.2);
     filter: brightness(90%);
 }
 
-
-.main .items .product .purchase{
-    width: 9rem;
-    height: 3rem;
-}
-
-.main .items .product .purchase .buy{
-    width: 9rem;
-    height: 3rem;
-    border-radius: 3rem;
-    background: #db8f16;
-    display: flex;
-    align-items: center;
+.main .container .items .title{
+    margin: auto;
+    width: 16rem;
+    margin-top: 1rem;
     text-align: center;
-    padding-inline: .15rem .75rem;
-    justify-content: space-between;
+    white-space: nowrap;
 }
 
-.main .items .product .purchase .buy p{
-    font-size: 1.2rem;
-}
-
-
-.main .items .product .purchase .cost{
-    width: 2.7rem;
-    height: 2.7rem;
-    border-radius: 3rem;
-    background: #d52525;
-    z-index: 99;
+.main .container .items .purchase{
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.main .container .items .purchase .cost,
+.main .container .items .purchase .buy{
+    height: 2rem;
+    width: 5.5rem;
+    border-radius: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+
+.main .container .items .purchase .buy{
+    background: green;
     transition: background 300ms;
 }
 
-.main .items .product .purchase .cost:hover{
-    background: #d5252595;
-}
-
-
-
-
-
-
-
-
-
-
-.items{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: space-between;
+.main .container .items .purchase .buy:hover{
+    background: rgb(1, 111, 1);
 }

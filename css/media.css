@@ -10,15 +10,22 @@
     }
 }
 
-@media only screen and (min-width:1700px){
-    .items{
+
+@media only screen and (min-width:1500px){
+    .main .container .items{
         grid-template-columns: 24% 24% 24% 24%;
     }
 }
 
-@media only screen and (max-width:1150px){
-    .items{
-        grid-template-columns: 48% 48%;
+@media only screen and (min-width:1700px){
+    .main .container .items{
+        grid-template-columns: 19% 19% 19% 19% 19%;
+    }
+}
+
+@media only screen and (max-width:1300px){
+    .main .container .items{
+        grid-template-columns: 49% 49%;
     }
 }
 

@@ -33,22 +33,6 @@
                 </div>
 
                 <div class="image">
-                    <img src="img/" alt="">
-                </div>
-
-                <div class="image">
-                    <img src="img/" alt="">
-                </div>
-
-                <div class="image">
-                    <img src="" alt="">
-                </div>
-
-                <div class="image">
-                    <img src="" alt="">
-                </div>
-
-                <div class="image">
                     <img src="" alt="">
                 </div>
 
@@ -65,249 +49,274 @@
             <div class="items"> <!---hepsini      items      içine aldım--->
 
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/666 (1).png">
-                    <img class="case" src="img/78878.png" alt="">
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/666 (1).png">
+                        <img class="case" src="img/78878.png" alt="">
+                    </div>
+                    <div class="title">
+                        ALEVLİ MUMYA RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    ALEVLİ MUMYA RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 30" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
 
 
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/gggg.png">
-                    <img class="case" src="img/86.png" alt="">
-                </div>
-                <div class="title">
-                    GECE MAVİSİ RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <div class="buy">
-                    <form action="buy.php" method="post">
-                        <input type="button" value="₺ 150" id="btn">
-                        <input type="submit" value="SATIN AL" id="buy">
-                    </form>
-                </div>
-            </div>
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/gggg.png">
+                        <img class="case" src="img/86.png" alt="">
+                    </div>
+                    <div class="title">
+                        GECE MAVİSİ RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/gggg.png">
-                    <img class="case" src="img/86.png" alt="">
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    GECE MAVİSİ RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 250" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png">
-                    <img class="case" src="img/eeee.png" alt="">
-                </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy"">
-                </form>
-            </div>
-            <!-- ORTA KATEGORİ -->
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png">
-                    <img class="case" src="img/eeee.png" alt="">
-                </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/gggg.png">
+                        <img class="case" src="img/86.png" alt="">
+                    </div>
+                    <div class="title">
+                        GECE MAVİSİ RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png">
-                    <img class="case" src="img/eeee.png" alt="">
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png">
-                    <img class="case" src="img/eeee.png" alt="">
-                </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png"">
-                    <img class="case" src="img/eeee.png" alt="">
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
-            
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/kupa.png">
-                    <img class="case" src="img/eeee.png" alt="">
-                </div>
-                <div class="title">
-                    SURREAL RANDOM UC
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
-            <!-- EN ALT KATEGORİ -->
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" id="test1" src="img/random_4_u.png">
-                    <img class="case" src="img/random_4.png" alt="">
-                </div>
-                <div class="title">
-                    YARAMAZ ÇOCUK RANDOM HESAP
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 500" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
+                <!-- ORTA KATEGORİ -->
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/random_5_u.png">
-                    <img class="case" src="img/random_hesap_5.png" alt="">
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    MASKENİN LANETİ RANDOM HESAP
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 200" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/7u.png">
-                    <img class="case" src="img/67673.png" alt="">
-                </div>
-                <div class="title">
-                    HİPOTERMİ RANDOM HESAP
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 200" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/oo.png">
-                    <img class="case" src="img/hyhy.png" alt="">
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
                 </div>
-                <div class="title">
-                    DESTANSI RANDOM HESAP
-                </div>
-                <del>
-                    <p class="old-price-txt"></p>
-                </del>
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 200" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
 
-            <div class="product-div">
-                <div class="gun-images">
-                    <img class="gun" src="img/jj1.png">
-                    <img class="case" src="img/555.png" alt="">
-                </div>
-                <div class="title">
-                    İŞGALCİ RANDOM HESAP
-                </div>
-                <del>
-                    <p class="old-prce-txt"></p>
-                </del>i
-                <form action="buy.php" method="post">
-                    <input type="button" value="₺ 200" id="btn">
-                    <input type="submit" value="SATIN AL" id="buy">
-                </form>
-            </div>
-            </div>
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
 
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png"">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/kupa.png">
+                        <img class="case" src="img/eeee.png" alt="">
+                    </div>
+                    <div class="title">
+                        SURREAL RANDOM UC
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+                <!-- EN ALT KATEGORİ -->
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" id="test1" src="img/random_4_u.png">
+                        <img class="case" src="img/random_4.png" alt="">
+                    </div>
+                    <div class="title">
+                        YARAMAZ ÇOCUK RANDOM HESAP
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/random_5_u.png">
+                        <img class="case" src="img/random_hesap_5.png" alt="">
+                    </div>
+                    <div class="title">
+                        MASKENİN LANETİ RANDOM HESAP
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/7u.png">
+                        <img class="case" src="img/67673.png" alt="">
+                    </div>
+                    <div class="title">
+                        HİPOTERMİ RANDOM HESAP
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/oo.png">
+                        <img class="case" src="img/hyhy.png" alt="">
+                    </div>
+                    <div class="title">
+                        DESTANSI RANDOM HESAP
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div">
+                    <div class="gun-images">
+                        <img class="gun" src="img/jj1.png">
+                        <img class="case" src="img/555.png" alt="">
+                    </div>
+                    <div class="title">
+                        İŞGALCİ RANDOM HESAP
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 50₺
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
