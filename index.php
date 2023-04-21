@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    <div id="preloder"></div>
+    <div id="preloader">
+        <img src="img/logo.png" alt="">
+    </div>
 
     <?php
     include("inc/header.php");
@@ -317,6 +319,8 @@
                     </div>
                 </div>
             </div>
+
+            <div class='line'></div>
         </div>
     </main>
 
@@ -326,9 +330,7 @@
     <script src="js/home.js"></script>
     <script>
         $(window).on('load', function() {
-            $(".loader").delay(100).fadeOut();
-            $("#preloder").delay(300).fadeOut("slow");
-
+            $("#preloader").delay(400).fadeOut("slow");
         });
     </script>
 
