@@ -136,7 +136,7 @@
                     <input type="submit" value="SATIN AL" id="buy"">
                 </form>
             </div>
-
+            <!-- ORTA KATEGORİ -->
             <div class="product-div">
                 <div class="gun-images">
                     <img class="gun" id="test1" src="img/kupa.png">
@@ -221,7 +221,7 @@
                     <input type="submit" value="SATIN AL" id="buy">
                 </form>
             </div>
-
+            <!-- EN ALT KATEGORİ -->
             <div class="product-div">
                 <div class="gun-images">
                     <img class="gun" id="test1" src="img/random_4_u.png">
