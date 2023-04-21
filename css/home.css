@@ -180,7 +180,10 @@
     transition: 0.3s;
     padding-bottom: 4.5vh;
     background-image: url('blue_header');
-    animation: flame 0.5s infinite alternate;
+    animation: flame 0.3s infinite alternate;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .product-div span{
@@ -335,4 +338,19 @@
 
 .main .items .product .purchase .cost:hover{
     background: #d5252595;
+}
+
+
+
+
+
+
+
+
+
+
+.items{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
 }

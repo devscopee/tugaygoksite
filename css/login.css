@@ -1,82 +1,112 @@
+body{
+    background: #000000;
+}
+
+.bg-img { 
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
 .main{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     min-height: 100vh;
+    z-index: 2;
+    padding-inline: 10rem;
 }
 
 .main .logo-section{
-    width: 20rem;
+    width: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #db8f1620;
-    padding-block: .5rem;
-    border-radius: .25rem .25rem 0 0;
+    background: #432f0f80;
+    padding-block: 8px;
+    border-radius: 4px 4px 0 0;
 }
 
 .main .logo-section img{
-    width: 1.75rem;
-    margin-inline: .75rem;
+    width: 28px;
+    margin-inline: 12px;
 }
 
 .main .logo-section p{
-    font-size: 1.2rem;
+    font-size: 19.2px;
     font-weight: 600;
 }
 
 .main .login-form{
-    width: 20rem;
+    width: 320px;
     height: auto;
-    background: #dbdbdb;
-    color: #0f0f0f;
-    border-radius: 0 0 .25rem .25rem;
-    padding: 1.25rem;
+    background: #000000bb;
+    color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .main .login-form .btn-text{
-    font-size: .8rem;
-    letter-spacing: .06rem;
+    font-size: 12.8px;
+    letter-spacing: .96px;
 }
 
 .main .login-form .greeting{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .main .login-form .greeting p{
-    font-size: 1.3rem;
+    font-size: 20.8px;
     font-weight: 600;
 }
 
 .main .login-form .inputs{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .main .login-form .inputs .input{
-    margin-bottom: .5rem;
+    margin-bottom: 8px;
 }
 
 .main .login-form .inputs .input input{
     all: unset;
-    width: calc(100% - 1.75rem);
-    height: 2.25rem;
+    width: calc(100% - 28px);
+    height: 36px;
     background: #0f0f0f10;
-    border: .1rem solid #0f0f0f30;
-    border-radius: .3rem;
-    padding-inline: .75rem;
+    border: 1.6px solid #0f0f0f30;
+    border-radius: 4.8px;
+    padding-inline: 12px;
 }
 
 .main .login-form .inputs .input p{
-    font-size: .9rem;
+    font-size: 14.4px;
     font-weight: 500;
 }
 
 .main .login-form .login{
     width: 100%;
-    height: 2.25rem;
-    border-radius: .25rem;
+    height: 36px;
+    border-radius: 4px;
     background: #db8f16;
     color: #fff;
     font-weight: 500;
@@ -93,39 +123,39 @@
 
 .main .login-form .line{
     width: 100%;
-    height: .1rem;
+    height: 1.6px;
     background: #0f0f0f10;
-    margin-block: .75rem;
+    margin-block: 12px;
 }
 
 .main .login-form .special-situations{
     display: flex;
     justify-content: space-between;
-    margin-bottom: .75rem;
+    margin-bottom: 12px;
 }
 .main .login-form .special-situations a{
-    font-size: .8rem;
+    font-size: 12.8px;
     color: #962a2a;
     font-weight: 500;
 }
 
 .main .login-form .quick-login-options .login-option{
     width: 100%;
-    height: 2.25rem;
-    padding-inline: .75rem;
-    border-radius: .25rem;
+    height: 36px;
+    padding-inline: 12px;
+    border-radius: 4px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: .75rem;
+    margin-bottom: 12px;
     cursor: pointer;
     transition: background 300ms;
 }
 
 .main .login-form .quick-login-options .login-option i{
-    margin-right: .25rem;
-    font-size: 1.1rem;
+    margin-right: 4px;
+    font-size: 17.6px;
 }
 
 .main .login-form .quick-login-options .steam-login{

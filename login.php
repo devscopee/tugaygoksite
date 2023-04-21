@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/login.css">
     <script src="js/script.js"></script>
     <script src="js/jquery.js"></script>
-    <title>MARAZ GAME - Giriş Sayfası</title>
+    <title>Maraz Game</title>
 </head>
 <body>
-    
+    <div class='bg-img'>
     <div id="preloder"></div>
 
     <main class='main'>
