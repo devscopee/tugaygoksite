@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class='directions'>
-        <div class='pubgm section'>
+        <div class='pubgm section active'>
             <p>Pubg Mobile</p>
         </div> 
 
-        <div class='games section active'>
+        <div class='games section'>
             <p>Oyunlar</p>
         </div>
 

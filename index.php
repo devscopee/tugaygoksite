@@ -51,7 +51,7 @@
             <div class="items"> <!---hepsini      items      içine aldım--->
 
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/666 (1).png">
                         <img class="case" src="img/78878.png" alt="">
@@ -72,7 +72,7 @@
 
 
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/gggg.png">
                         <img class="case" src="img/86.png" alt="">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/gggg.png">
                         <img class="case" src="img/86.png" alt="">
@@ -110,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png">
                         <img class="case" src="img/eeee.png" alt="">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <!-- ORTA KATEGORİ -->
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png">
                         <img class="case" src="img/eeee.png" alt="">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png">
                         <img class="case" src="img/eeee.png" alt="">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png">
                         <img class="case" src="img/eeee.png" alt="">
@@ -186,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png"">
                         <img class="case" src="img/eeee.png" alt="">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
                 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/kupa.png">
                         <img class="case" src="img/eeee.png" alt="">
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <!-- EN ALT KATEGORİ -->
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" id="test1" src="img/random_4_u.png">
                         <img class="case" src="img/random_4.png" alt="">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/random_5_u.png">
                         <img class="case" src="img/random_hesap_5.png" alt="">
@@ -262,7 +262,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/7u.png">
                         <img class="case" src="img/67673.png" alt="">
@@ -281,7 +281,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/oo.png">
                         <img class="case" src="img/hyhy.png" alt="">
@@ -300,7 +300,7 @@
                     </div>
                 </div>
 
-                <div class="product-div">
+                <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/jj1.png">
                         <img class="case" src="img/555.png" alt="">
