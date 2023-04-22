@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,19 @@
     <link rel='stylesheet' href='css/global.css'>
     <link rel='stylesheet' href='css/media.css'>
 </head>
+
 <body>
     <div id="preloader">
         <img src="img/logo.png" alt="">
     </div>
 
     <?php
-        include('inc/header.php')
+    include('inc/header.php')
     ?>
 
     <div class="main">
         <div class="container">
-            
+
 
             <div class="section">
                 <div class="general">
@@ -28,19 +30,24 @@
 
                         <div class='import-from-this-computer change-profile-image' onclick="selectProfilePicture()">
                             <p>Bu Bilgisayardan</p>
-                            <input type="file" id="picture-input" accept="image/*"style="display:none" onchange="displaySelectedPicture(event)">
+                            <input type="file" id="picture-input" accept="image/*" style="display:none" onchange="displaySelectedPicture(event)">
                         </div>
 
                         <div class='import-from-the-web change-profile-image' onclick="changeProfilePicture()">
                             <p>Web'de Ara</p>
                         </div>
-                        
+
                     </div>
 
                     <div class="account-information">
-                            <p>Kullanıcı adı: <span class='name'>scope</span></p>
-                            <p>Kimlik kodu: <span class='identification-code'></span></p>
-                        </div>
+                        <p>Kullanıcı adı: <span class='name'>scope</span></p>
+                        <p>Kimlik kodu: <span class='identification-code'></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="user-declarations">
+                <p>Henüz bir ilan eklemediniz. Eklemek için <a href=''>buraya tıklayın</a></p>  
                 </div>
             </div>
         </div>
@@ -50,4 +57,5 @@
     <script src="js/main.js"></script>
     <script src="js/profile.js"></script>
 </body>
+
 </html>

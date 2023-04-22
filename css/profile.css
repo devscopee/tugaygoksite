@@ -1,59 +1,74 @@
 .main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .main .container {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  justify-content: space-between;
 }
 
 .main .container .section {
-    width:  20rem;
-    height: 20rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .main .container .section .general {
-    background: #080808;
-    padding: 3rem;
-
+  background: #080808;
+  padding: 3rem;
 }
-.main .container .section .general .profile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main .container .section .general .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main .container .section .general .profile #profile-picture {
-    width: 7rem;
-    height: 7rem;
-    border-radius: 2rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
-.main .container .section .general .profile .change-profile-image{
-    width: 100%;
-    height: 3rem;
-    border-radius: .25rem;
-    background: #d18c1e80;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: .5rem;
-    cursor: pointer;
-    transition: background 300ms;
+.main .container .section .general .profile .change-profile-image {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.25rem;
+  background: #d18c1e80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: background 300ms;
 }
 
-.main .container .section .general .profile .change-profile-image:hover{
-    background: #b2781a80;
+.main .container .section .general .profile .change-profile-image:hover {
+  background: #b2781a80;
 }
 
-.main .container .section .general .profile .import-from-the-web{
-    margin-bottom: 2rem;
+.main .container .section .general .profile .import-from-the-web {
+  margin-bottom: 2rem;
 }
 
-.main .container .section .general .account-information{
-    font-family: 'Source Code Pro', sans-serif;
+.main .container .section .general .account-information {
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.user-declarations {
+  min-width: 100%;
+  height: auto;
+  min-height: 10rem;
+  padding: 3rem;
+  background: #080808;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 100%;
+}
+
+.section1 .user-declarations p{
+    text-align: center;
 }
