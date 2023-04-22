@@ -115,7 +115,8 @@
 .header .container .buttons .shop{
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: .25rem;
+    border-radius: 50%;
+    background: #ffffff10;
     cursor: pointer;
     justify-content: center;
     align-items: center;

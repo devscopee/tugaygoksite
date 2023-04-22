@@ -24,7 +24,12 @@
             <div class="section">
                 <div class="general">
                     <div class="profile">
-                        <img src="img/avatar.png" alt="">
+                        <label class="-label" for="file">
+                            <span class="glyphicon glyphicon-camera"></span>
+                            <span>Change Image</span>
+                        </label>
+                        <input id="file" type="file" onchange="loadFile(event)"/>
+                        <img src='img/avatar.png'>
                     </div>
                     
                     <div class="account-information">
