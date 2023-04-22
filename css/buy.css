@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Russo One", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 120rem;
+  height: 81.25rem;
+  background-color: #201f28;
+}
+
+.container .area {
+  width: 120rem;
+  height: 81.25rem;
+  background-color: transparent;
+}
+
+.container .area .banner {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 6.25rem;
+  background-color: transparent;
+  width: 68.75rem;
+  height: 40.625rem;
+  padding: 1.25rem;
+  border-radius: .9375rem;
+}
+
+.container .area .banner img {
+  width: 68.75rem;
+  height: 40.625rem;
+  transition: 0.5s;
+  box-shadow: 0rem 0rem .625rem .9375rem rgba(252, 252, 252, 0.103);
+}
+
+/**/
+
+.container .area .card {
+  position: absolute;
+  margin-left: 81.25rem;
+  margin-top: 5rem;
+  width: 31.25rem;
+  height: 40.625rem;
+  padding: 1.25rem;
+  background-color: transparent;
+  border-radius: .9375rem;
+}
+
+.container .area .card .image {
+  width: 31.25rem;
+  height: 15.625rem;
+  background-color: transparent;
+  border-radius: .9375rem;
+}
+
+.container .area .card .image img {
+  width: 31.25rem;
+  height: 15.625rem;
+  border-radius: .9375rem;
+}
+
+.container .area .card .stok {
+  width: 31.25rem;
+  margin-top: 1.25rem;
+  height: 3.75rem;
+  background-color: transparent;
+  border-radius: .625rem;
+}
+
+/**/
+
+.container .area .card .stok .circle {
+  position: absolute;
+  margin-top: .9375rem;
+  margin-left: 7.5rem;
+  background-color: transparent;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+
+.container .area .card .stok .circle i {
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .area .card .stok #stokTxt {
+  position: absolute;
+  margin-top: 1.125rem;
+  margin-left: 8.3333vw;
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+
+.container .area .card #desc {
+  margin-top: .625rem;
+  color: #9fb0bf;
+  font-size: 17px;
+}
+
+.container .area .price {
+  margin-top: 1.25rem;
+  width: 6.25rem;
+  height: 4.375rem;
+  border: 1px solid #55f909;
+  padding: 1.25rem;
+}
+
+.container .area .price #mainSale {
+  margin-left: 0rem;
+  margin-top: -0.625rem;
+  color: #55f909;
+}
+
+.container .area .price #saleTxt {
+  color: #55f909;
+  margin-top: .3125rem;
+  font-size: 1.25rem;
+  margin-left: 1.0625rem;
+}
+
+.container .area .card #mainPrice {
+  margin-top: -5.25rem;
+  margin-left: 9.375rem;
+  font-size: 1.1875rem;
+  filter: brightness(50%);
+}
+
+.container .area .card #salePrice {
+  margin-top: 1.125rem;
+  margin-left: 9.375rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container .area .card #buyBtn {
+  margin-top: 2.5rem;
+  width: 31.25rem;
+  height: 3.75rem;
+  background-color: transparent;
+  color: #efa406;
+  outline: none;
+  border: 3px solid #efa406;
+  font-size: 1.25rem;
+  border-radius: .3125rem;
+  box-shadow: 0rem 0rem 1.25rem .125rem #efa406;
+}
+
+.container .area .boxs {
+  position: absolute;
+  margin-top: 51.25rem;
+  margin-left: 7.5rem;
+  width: 86.9792vw;
+  height: 21.875rem;
+  background-color: transparent;
+  padding: .3125rem;
+  display: flex;
+}
+
+.container .area .boxs .boxOne,
+.container .area .boxs .boxTwo,
+.container .area .boxs .boxThree,
+.container .area .boxs .boxFour {
+  background-color: #19181e;
+  width: 25rem;
+  height: 21.875rem;
+  margin-left: .9375rem;
+  border-radius: 1.25rem;
+  transition: 0.5s;
+}
+
+.container .area .boxs .boxOne:hover,
+.container .area .boxs .boxTwo:hover,
+.container .area .boxs .boxThree:hover,
+.container .area .boxs .boxFour:hover {
+  box-shadow: 0rem 0rem .625rem .125rem #efa406;
+}
+
+/**/
+
+.container .area .boxs .boxOne img,
+.container .area .boxs .boxTwo img,
+.container .area .boxs .boxThree img,
+.container .area .boxs .boxFour img {
+  width: 25rem;
+  height: 12.5rem;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+/**/
+
+.container .area .boxs .boxOne #capOne,
+.container .area .boxs .boxTwo #capTwo,
+.container .area .boxs .boxThree #capThree,
+.container .area .boxs .boxFour #capFour {
+  margin-left: 1.25rem;
+  font-size: 1.5625rem;
+  font-weight: bold;
+}
+
+/**/
+
+.container .area .boxs .boxOne #priceOne,
+.container .area .boxs .boxTwo #priceTwo,
+.container .area .boxs .boxThree #priceThree,
+.container .area .boxs .boxFour #priceFour {
+  margin-left: 1.25rem;
+  margin-top: 4.0625rem;
+  font-size: 1.5625rem;
+}
+
+/**/
+
+.container .area .boxs .boxOne #buyOne,
+.container .area .boxs .boxTwo #buyTwo,
+.container .area .boxs .boxThree #buyThree,
+.container .area .boxs .boxFour #buyFour {
+  margin-left: 18.75rem;
+  margin-top: -1.875rem;
+  font-size: 1.25rem;
+  color: #efa406;
+}

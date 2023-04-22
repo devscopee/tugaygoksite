@@ -29,7 +29,7 @@
                             <span>Change Image</span>
                         </label>
                         <input id="file" type="file" onchange="loadFile(event)"/>
-                        <img src='img/avatar.png'>
+                        <img src='img/avatar.png'  id="output" width="200">
                     </div>
                     
                     <div class="account-information">
