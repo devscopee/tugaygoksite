@@ -8,9 +8,6 @@
     <link rel='stylesheet' href='css/global.css'>
     <link rel='stylesheet' href='css/home.css'>
     <link rel='stylesheet' href='css/media.css'>
-    <script src='js/main.js'></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery.js"></script>
     <title>Maraz Game</title>
 </head>
 
@@ -597,12 +594,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/home.js"></script>
-    <script>
-        $(window).on('load', function() {
-            $("#preloader").delay(400).fadeOut("slow");
-        });
-    </script>
-
+    <script src="js/main.js"></script>
 </body>
-
 </html>

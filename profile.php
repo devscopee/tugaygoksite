@@ -24,18 +24,23 @@
             <div class="section">
                 <div class="general">
                     <div class="profile">
-                        <label class="-label" for="file">
-                            <span class="glyphicon glyphicon-camera"></span>
-                            <span>Change Image</span>
-                        </label>
-                        <input id="file" type="file" onchange="loadFile(event)"/>
-                        <img src='img/avatar.png'  id="output" width="200">
+                        <img id="profile-picture" src="img/avatar.png">
+
+                        <div class='import-from-this-computer change-profile-image' onclick="selectProfilePicture()">
+                            <p>Bu Bilgisayardan</p>
+                            <input type="file" id="picture-input" accept="image/*"style="display:none" onchange="displaySelectedPicture(event)">
+                        </div>
+
+                        <div class='import-from-the-web change-profile-image' onclick="changeProfilePicture()">
+                            <p>Web'de ara</p>
+                        </div>
+                        
                     </div>
-                    
+
                     <div class="account-information">
-                        Kullanıcı adı: scope
-                        Kimlik kodu: <p class='identification-code'></p>
-                    </div>
+                            <p>Kullanıcı adı: <span class='name'>scope</span></p>
+                            <p>Kimlik kodu: <span class='identification-code'></span></p>
+                        </div>
                 </div>
             </div>
         </div>
@@ -43,5 +48,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/profile.js"></script>
 </body>
 </html>

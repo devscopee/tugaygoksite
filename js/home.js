@@ -91,4 +91,4 @@ function displayimage(n){
         image[i].style.display = 'none'
     }
     image[imagenumber - 1].style.display = 'flex'
-} 
+}
