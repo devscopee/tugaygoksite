@@ -4,6 +4,18 @@ const PubgMobileItems = document.querySelectorAll('.main .container .items .prod
 const ValorantItems = document.querySelectorAll('.main .container .items .product-div.valo')
 const GamesItems = document.querySelectorAll('.main .container .items .product-div.games')
 
+PubgMobileItems.forEach(PubgMobileItem => {
+    PubgMobileItem.style.display = 'flex'
+})
+ValorantItems.forEach(ValorantItem => {
+    ValorantItem.style.display = 'none'
+})
+GamesItems.forEach(GamesItem => {
+    GamesItem.style.display = 'none'
+})
+
+
+
 Sections.forEach(Section => {
     Section.addEventListener('click', () => {
         Sections.forEach(Section => {
