@@ -8,7 +8,8 @@
 
 .header .container{
     width: 80%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     justify-content: space-between;
 }
 
@@ -25,6 +26,11 @@
 .header .container .logo p{
     font-size: 1.75rem;
     font-weight: 600;
+}
+
+.header .container .finder{
+    display: flex;
+    justify-content: center;
 }
 
 .header .container .finder .input{
@@ -59,6 +65,8 @@
 
 .header .container .buttons{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .header .container .buttons .button{
@@ -89,4 +97,40 @@
 
 .header .container .buttons .button.login:hover{
     background: #db8f16;
+}
+
+.header .container .buttons .account a{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .buttons .account a  img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+
+.header .container .buttons .shop{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.header .container .buttons .active{
+    display: flex;
+}
+
+.header .container .buttons .inactive{
+    display: none;
 }

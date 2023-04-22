@@ -16,34 +16,24 @@
     <div id="preloder"></div>
 
     <main class='main'>
-        <div class='logo-section'>
-            <p>Maraz</p>
-            <img src="img/logo.png">
-            <p>Game</p>
-        </div>
-
         <div class='login-form'>
             <div class="greeting">
-                <p>Tekrardan hoşgeldin, hadi hesabına giriş yapalım!</p>
+                <p>Oturum Aç</p>
             </div>
 
             <div class="inputs">
                 <div class="email-input input">
-                    <p>E-posta</p>
-                    <input type="text" maxlength='35' placeholder='example@gmail.com'>
+                    <input type="text" maxlength='35' placeholder='E-posta'>
                 </div>
 
                 <div class="password-input input">
-                    <p>Şifre</p>
-                    <input type="password" maxlength='35' placeholder='tugayabi31çekiyor'>
+                    <input type="password" maxlength='35' placeholder='Şifre'>
                 </div>
             </div>
 
             <div class="login">
                 <p class='btn-text'>Giriş Yap</p>
             </div>
-
-            <div class="line"></div>
 
             <div class="special-situations">
                 <a href="">Şifremi unuttum</a>

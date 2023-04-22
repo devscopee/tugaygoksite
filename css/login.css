@@ -17,11 +17,11 @@ body{
 .bg-img::before {
     content: "";
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -29,84 +29,61 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
     min-height: 100vh;
     z-index: 2;
-    padding-inline: 10rem;
-}
-
-.main .logo-section{
-    width: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #432f0f80;
-    padding-block: 8px;
-    border-radius: 4px 4px 0 0;
-}
-
-.main .logo-section img{
-    width: 28px;
-    margin-inline: 12px;
-}
-
-.main .logo-section p{
-    font-size: 19.2px;
-    font-weight: 600;
 }
 
 .main .login-form{
-    width: 320px;
+    width: 22rem;
     height: auto;
-    background: #000000bb;
+    background: #00000080;
     color: #fff;
-    border-radius: 0 0 4px 4px;
-    padding: 20px;
+    border-radius: .25rem;
+    padding: 3rem;
     overflow: hidden;
 }
 
 .main .login-form .btn-text{
-    font-size: 12.8px;
-    letter-spacing: .96px;
+    font-size: .8rem;
 }
 
 .main .login-form .greeting{
-    margin-bottom: 16px;
+    margin-bottom: 1.5rem;
 }
 
 .main .login-form .greeting p{
-    font-size: 20.8px;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
 .main .login-form .inputs{
-    margin-bottom: 16px;
+    margin-bottom: 1.5rem;
 }
 
 .main .login-form .inputs .input{
-    margin-bottom: 8px;
+    margin-bottom: .5rem;
 }
 
 .main .login-form .inputs .input input{
     all: unset;
-    width: calc(100% - 28px);
-    height: 36px;
-    background: #0f0f0f10;
-    border: 1.6px solid #0f0f0f30;
-    border-radius: 4.8px;
-    padding-inline: 12px;
+    width: calc(100% - 1.5rem);
+    height: 2.75rem;
+    background: #ffffff10;
+    border-radius: 0.3rem;
+    padding-inline: 0.75rem;
 }
 
 .main .login-form .inputs .input p{
-    font-size: 14.4px;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
 .main .login-form .login{
     width: 100%;
-    height: 36px;
-    border-radius: 4px;
+    height: 2.75rem;
+    border-radius: .25rem;
     background: #db8f16;
     color: #fff;
     font-weight: 500;
@@ -114,48 +91,42 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-bottom: .5rem;
     transition: background 300ms;
 }
 
 .main .login-form .login:hover{
-    background: #db8f16dd;
-}
-
-.main .login-form .line{
-    width: 100%;
-    height: 1.6px;
-    background: #0f0f0f10;
-    margin-block: 12px;
+    background: #9e6811;
 }
 
 .main .login-form .special-situations{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 .main .login-form .special-situations a{
-    font-size: 12.8px;
-    color: #962a2a;
+    font-size: 0.8rem;
+    color: #fff;
     font-weight: 500;
 }
 
 .main .login-form .quick-login-options .login-option{
     width: 100%;
-    height: 36px;
-    padding-inline: 12px;
-    border-radius: 4px;
+    height: 2.75rem;
+    padding-inline: .75rem;
+    border-radius: .25rem;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: .75rem;
     cursor: pointer;
     transition: background 300ms;
 }
 
 .main .login-form .quick-login-options .login-option i{
-    margin-right: 4px;
-    font-size: 17.6px;
+    margin-right: .25rem;
+    font-size: 1.1rem;
 }
 
 .main .login-form .quick-login-options .steam-login{

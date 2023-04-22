@@ -8,9 +8,6 @@
     <link rel='stylesheet' href='css/global.css'>
     <link rel='stylesheet' href='css/home.css'>
     <link rel='stylesheet' href='css/media.css'>
-    <script src='js/main.js'></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery.js"></script>
     <title>Maraz Game</title>
 </head>
 
@@ -30,6 +27,10 @@
             ?>
 
             <div class="slider-container">
+                <div class="button" onclick='nextimage(-1)'>
+                    <a class="prev">&#10094;</a>
+                </div>
+
                 <div class="image">
                     <img src="img/ggg.png" alt="">
                 </div>
@@ -38,9 +39,8 @@
                     <img src="" alt="">
                 </div>
 
-                <div class="buttons">
-                    <a onclick='nextimage(-1)' class="prev">&#10094;</a>
-                    <a onclick="nextimage(+1)" class="next">&#10095;</a>
+                <div class="button"onclick="nextimage(+1)">
+                    <a class="next">&#10095;</a>
                 </div>
             </div>
             <br><br>
@@ -318,6 +318,14 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="product-div valo">
+                    31
+                </div>
+
+                <div class="product-div games">
+                    69
+                </div>
             </div>
 
             <div class='line'></div>
@@ -328,12 +336,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/home.js"></script>
-    <script>
-        $(window).on('load', function() {
-            $("#preloader").delay(400).fadeOut("slow");
-        });
-    </script>
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>

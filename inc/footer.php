@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+    <div class="footer">
+        <div class="logo">
+            <img src="../img/logo.png" alt="">
 
-
-    <footer>
-        <div class="main">
-            <div class="icerik">
-                <div class="footer-logo">
-                    <img src="img/logo.png" alt="" width="50px">
-                </div>
-            </div>
+            <p>Maraz Game</p>
         </div>
-    </footer>
 
+        <div class="about-us">
+            <ul>
+                <li class='header'>Hakkımızda</li>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
