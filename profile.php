@@ -32,7 +32,7 @@
                         </div>
 
                         <div class='import-from-the-web change-profile-image' onclick="changeProfilePicture()">
-                            <p>Web'de ara</p>
+                            <p>Web'de Ara</p>
                         </div>
                         
                     </div>

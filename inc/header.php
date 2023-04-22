@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="shop active">
-                    <a href="">
+                    <a href="shopping-bag.php">
                         <i class="fa-solid fa-basket-shopping"></i>
                     </a>
                 </div>
