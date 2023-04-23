@@ -11,29 +11,30 @@
   justify-content: space-between;
 }
 
-.main .container .section {
+.main .container .account {
   width: 20rem;
   height: 20rem;
 }
 
-.main .container .section .general {
+.main .container .account .general {
   background: #080808;
   padding: 3rem;
 }
-.main .container .section .general .profile {
+.main .container .account .general .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .container .section .general .profile #profile-picture {
+.main .container .account .general .profile #profile-picture {
   width: 7rem;
   height: 7rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
+  object-fit: cover;
 }
 
-.main .container .section .general .profile .change-profile-image {
+.main .container .account .general .profile .change-profile-image {
   width: 100%;
   height: 3rem;
   border-radius: 0.25rem;
@@ -46,29 +47,63 @@
   transition: background 300ms;
 }
 
-.main .container .section .general .profile .change-profile-image:hover {
+.main .container .account .general .profile .change-profile-image:hover {
   background: #b2781a80;
 }
 
-.main .container .section .general .profile .import-from-the-web {
+.main .container .account .general .profile .import-from-the-web {
   margin-bottom: 2rem;
 }
 
-.main .container .section .general .account-information {
+.main .container .account .general .account-information {
   font-family: "Source Code Pro", sans-serif;
 }
 
-.user-declarations {
-  min-width: 100%;
+.main .container .there-is-no-decleration,
+.main .container .declerations {
   height: auto;
-  min-height: 10rem;
   padding: 3rem;
   background: #080808;
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: 100%;
 }
 
-.section1 .user-declarations p{
-    text-align: center;
+.main .container .user-declarations{
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-between;
 }
+
+.main .container .user-declarations.active{
+  display: grid;
+}
+
+.main .container .there-is-no-decleration.active{
+  display: block;
+  height: 100%;
+}
+
+.main .container .inactive{
+  display: none;
+}
+
+.main .container .user-declarations .decleration{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.main .container .user-declarations .decleration img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: .125rem; 
+}
+
+.main .container .there-is-no-decleration {
+  text-align: center;
+}
+
+.main .container .there-is-no-decleration p a{
+  color: #d18c1e;
+}
+
+/* ilanlar evet */

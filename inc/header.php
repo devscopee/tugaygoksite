@@ -19,7 +19,7 @@
                 <div class='input'>
                     <input type="text" maxlength='125' placeholder='Bir şey ara...'>
                     <div class='search'>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
             </div>
@@ -39,11 +39,12 @@
                     </a>
                 </div>
 
-                <div class="shop active">
-                    <a href="shopping-bag.php">
+                <a href="products.php">
+                    <div class="shop active">
                         <i class="fa-solid fa-basket-shopping"></i>
-                    </a>
-                </div>
+                    </div>
+                </a>
+
             </div>
         </div>
     </header>

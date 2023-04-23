@@ -8,14 +8,14 @@
 
 .header .container{
     width: 80%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
     justify-content: space-between;
 }
 
 .header .container .logo{
     display: flex;
     align-items: center;
+    width: auto;
 }
 
 .header .container .logo img{
@@ -31,6 +31,7 @@
 .header .container .finder{
     display: flex;
     justify-content: center;
+    width: auto;
 }
 
 .header .container .finder .input{
@@ -51,7 +52,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 0rem .5rem .5rem 0rem;
-    background: #db8f1680;
+    background: #d18c1e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,13 +61,14 @@
 }
 
 .header .container .finder .search:hover{
-    background: #db8f1690;
+    background: #9e6811;
 }
 
 .header .container .buttons{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: auto;
 }
 
 .header .container .buttons .button{
@@ -80,23 +82,15 @@
     cursor: pointer;
 }
 
-.header .container .buttons .button.add{
-    background: #ff9d00;
-    transition: background 300ms;
-}
-
-.header .container .buttons .button.add:hover{
-    background: #db8f16;
-}
-
+.header .container .buttons .button.add,
 .header .container .buttons .button.login{
-    background: #ff9d00;
-    border: .15rem solid #ff9d0094;
+    background: #d18c1e;
     transition: background 300ms;
 }
 
+.header .container .buttons .button.add:hover,
 .header .container .buttons .button.login:hover{
-    background: #db8f16;
+    background: #9e6811;
 }
 
 .header .container .buttons .account a{
@@ -121,10 +115,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
-
 
 
 

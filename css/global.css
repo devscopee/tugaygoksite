@@ -78,3 +78,14 @@ a{
         filter: brightness(100%);
 	}
 }
+
+
+
+
+
+
+
+
+body{
+	user-select: none;
+}

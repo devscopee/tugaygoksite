@@ -23,7 +23,7 @@
         <div class="container">
 
 
-            <div class="section">
+            <div class="account">
                 <div class="general">
                     <div class="profile">
                         <img id="profile-picture" src="img/avatar.png">
@@ -45,10 +45,29 @@
                     </div>
                 </div>
             </div>
-            <div class="section1">
+
+            <div class="declerations inactive">
                 <div class="user-declarations">
-                <p>Henüz bir ilan eklemediniz. Eklemek için <a href=''>buraya tıklayın</a></p>  
+                    <div class="decleration">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+
+                    <div class="decleration">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+
+                    <div class="decleration">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+
+                    <div class="decleration">
+                        <img src="img/avatar.png" alt="">
+                    </div>
                 </div>
+            </div>
+
+            <div class="there-is-no-decleration active">
+                <p>Henüz bir ilan eklemediniz. Eklemek için <a href=''>buraya tıklayın.</a></p>  
             </div>
         </div>
     </div>

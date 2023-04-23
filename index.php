@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="img/.png" alt="">
+                    <img src="" alt="">
                 </div>
 
                 <div class="buttons">
@@ -46,8 +46,6 @@
             <!-- Alt kısım kasalar kısmı -->
 
             <div class="items"> <!---hepsini      items      içine aldım--->
-
-
                 <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/666 (1).png">
@@ -587,10 +585,6 @@
             <div class='line'></div>
         </div>
     </main>
-
-    <!-- <?php
-    include("inc/footer.php");
-    ?> -->
 
     <script src="js/jquery.js"></script>
     <script src="js/home.js"></script>
