@@ -151,7 +151,7 @@
                         <img class="case" src="img/medium.png" alt="">
                     </div>
                     <div class="title">
-                        SON UMUT RANDOM
+                        SON UMUT RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -170,7 +170,7 @@
                         <img class="case" src="img/yeşil-kasa.png" alt="">
                     </div>
                     <div class="title">
-                        HAYALET RANDOM HESAP
+                        YEŞİL LEKE RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -189,7 +189,7 @@
                         <img class="case" src="img/mor-kasa.png" alt="">
                     </div>
                     <div class="title">
-                        SURREAL RANDOM UC
+                        HAYALET RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -322,7 +322,7 @@
                         <img class="case" src="img/kırmızı.kasa.png" alt="">
                     </div>
                     <div class="title">
-                        İŞGALCİ RANDOM HESAP
+                        BÜYÜK UMUT RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -345,7 +345,7 @@
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 15 TL
+                            <del></del> 50 TL
                         </div>
 
                         <div class="buy">
@@ -364,7 +364,7 @@
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 25 TL
+                            <del></del> 100 TL
                         </div>
 
                         <div class="buy">
@@ -383,7 +383,7 @@
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 35 TL
+                            <del></del> 200 TL
                         </div>
 
                         <div class="buy">
@@ -398,11 +398,11 @@
                         <img class="case" src="img/r56.png" alt="">
                     </div>
                     <div class="title">
-                        İMMORTAL RANDOM VP
+                        ÖLÜMSÜZLÜK RANDOM VP
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 50 TL
+                            <del></del> 250 TL
                         </div>
 
                         <div class="buy">
@@ -417,11 +417,11 @@
                         <img class="case" src="img/kapak_kenar_cizgisi_kopya_2.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        RADYANT RANDOM VP
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 100 TL
+                            <del></del> 350 TL
                         </div>
 
                         <div class="buy">
@@ -436,7 +436,7 @@
                         <img class="case" src="img/thrth.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        50-120 ARASI SKIN RANDOM
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -451,11 +451,11 @@
 
                 <div class="product-div valo">
                     <div class="gun-images">
-                        <img class="gun" src="img/saa.png" style="margin-left: 3rem; width: 20rem; margin-top: -1rem;">
+                        <img class="gun" src="img/pngwing.com_1_kopya.png">
                         <img class="case" src="img/marazgame_logo_kopya_2.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        100-150 ARASI SKIN RANDOM
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -470,11 +470,11 @@
 
                 <div class="product-div valo">
                     <div class="gun-images">
-                        <img class="gun" src="img/3424.png">
-                        <img class="case" src="img/45453.png" alt="">
+                        <img class="gun" src="img/wdwqdqwd.png">
+                        <img class="case" src="img/ththt.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        200-300 ARASI SKIN ARANDOM
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -493,7 +493,26 @@
                         <img class="case" src="img/34234.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        300-500 ARASI SKIN RANDOM
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 200 TL
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div valo">
+                    <div class="gun-images">
+                        <img class="gun" src="img/3424.png">
+                        <img class="case" src="img/45453.png" alt="">
+                    </div>
+                    <div class="title">
+                        400-500 ARASI SKIN RANDOM
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -508,15 +527,15 @@
 
                 <div class="product-div valo">
                     <div class="gun-images">
-                        <img class="gun" src="img/wdwqdqwd.png">
-                        <img class="case" src="img/ththt.png" alt="">
+                        <img class="gun" src="img/3243254.png">
+                        <img class="case" src="img/fdwefw.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        TROLL SMURF RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 500 TL
+                            <del></del> 10 TL
                         </div>
 
                         <div class="buy">
@@ -524,18 +543,18 @@
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="product-div valo">
                     <div class="gun-images">
-                        <img class="gun" src="img/yuyuyu.png">
-                        <img class="case" src="img/fee.png" alt="">
+                        <img class="gun" src="img/e1.png" style="margin-left: 2rem;">
+                        <img class="case" src="img/fewf.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                    RANK AÇIK RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 500 TL
+                            <del></del> 25 TL
                         </div>
 
                         <div class="buy">
@@ -543,18 +562,18 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="product-div valo">
                     <div class="gun-images">
                         <img class="gun" src="img/asdq.png" style="margin-left: 1.150rem; margin-top: -1rem;">
                         <img class="case" src="img/Kavun.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                    ASİL YAĞMACI RANDOM HESAP
                     </div>
                     <div class="purchase">
                         <div class="cost">
-                            <del></del> 500 TL
+                            <del></del> 50 TL
                         </div>
 
                         <div class="buy">
@@ -569,7 +588,26 @@
                         <img class="case" src="img/pembe_panter.png" alt="">
                     </div>
                     <div class="title">
-                        RADİANT RANDOM VP
+                        BIÇAK GARANTİLİ RANDOM 
+                    </div>
+                    <div class="purchase">
+                        <div class="cost">
+                            <del></del> 100 TL
+                        </div>
+
+                        <div class="buy">
+                            SATIN AL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-div valo">
+                    <div class="gun-images">
+                        <img class="gun" src="img/yuyuyu.png">
+                        <img class="case" src="img/fee.png" alt="">
+                    </div>
+                    <div class="title">
+                        ULTRA SÜPER RANDOM
                     </div>
                     <div class="purchase">
                         <div class="cost">
@@ -589,11 +627,12 @@
     </main>
 
     <!-- <?php
-    include("inc/footer.php");
-    ?> -->
+            include("inc/footer.php");
+            ?> -->
 
     <script src="js/jquery.js"></script>
     <script src="js/home.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
