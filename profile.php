@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
     <link rel='stylesheet' href='css/global.css'>
     <link rel='stylesheet' href='css/media.css'>
 </head>
-
 <body>
     <div id="preloader">
         <img src="img/logo.png" alt="">
@@ -25,6 +23,11 @@
 
             <div class="account">
                 <div class="general">
+                    <div class="account-information">
+                        <p>Kullanıcı adı: <span class='name'>scope</span></p>
+                        <p>Kimlik kodu: <span class='identification-code'></span></p>
+                    </div>
+
                     <div class="profile">
                         <img id="profile-picture" src="img/avatar.png">
 
@@ -39,10 +42,7 @@
 
                     </div>
 
-                    <div class="account-information">
-                        <p>Kullanıcı adı: <span class='name'>scope</span></p>
-                        <p>Kimlik kodu: <span class='identification-code'></span></p>
-                    </div>
+                    
                 </div>
             </div>
 

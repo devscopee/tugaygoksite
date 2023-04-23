@@ -21,7 +21,7 @@ function changeProfilePicture() {
 // random identification code creator
 
 const usedCodes = new Set();
-const identification = document.querySelector('.main .container .section .general .account-information p .identification-code')
+const identification = document.querySelector('.main .container .account .general .account-information p .identification-code')
 
 function generateIdentificationCode() {
   const characters = '1234567890abcd';
