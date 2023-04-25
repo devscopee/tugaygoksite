@@ -1,3 +1,18 @@
+.bg-img { 
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/background-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  position: absolute;
+}
+
+
 .main {
   width: 100%;
   display: flex;
@@ -6,104 +21,69 @@
 
 .main .container {
   width: 80%;
-  display: grid;
-  grid-template-columns: 35% 65%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.main .container .account {
-  width: 20rem;
-  height: 20rem;
-}
-
-.main .container .account .general {
+.main .container .account{
+  width: auto;
+  height: auto;
   background: #080808;
+  border-radius: .25rem;
   padding: 3rem;
 }
-.main .container .account .general .profile {
+
+.main .container .account .general_info{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 3rem;
 }
-.main .container .account .general .profile #profile-picture {
+
+.main .container .account .general_info .avatar{
   width: 7rem;
   height: 7rem;
-  border-radius: 2rem;
-  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: #ffffff10;
+  margin-right: 3rem;
   cursor: pointer;
-  object-fit: cover;
 }
 
-.main .container .account .general .profile .change-profile-image {
+ul{
+  list-style-type: unset !important;
+  cursor: pointer;
+}
+
+.main .container .account .directions ul li{
   width: 100%;
   height: 3rem;
-  border-radius: 0.25rem;
-  background: #d18c1e80;
+  background: #ffffff10;
+  border-radius: .125rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-  transition: background 300ms;
+  padding-inline: 1rem;
+  margin-bottom: .25rem;
 }
 
-.main .container .account .general .profile .change-profile-image:hover {
-  background: #b2781a80;
+/* vsc kapayıp açıyom  */
+
+.main .container .account .directions ul li:hover{
+  background: #ffffff50;
 }
 
-.main .container .account .general .profile .import-from-the-web {
-  margin-bottom: 2rem;
-}
-
-.main .container .account .general .account-information {
-  font-family: "Source Code Pro", sans-serif;
-}
-
-.main .container .there-is-no-decleration,
-.main .container .declerations {
-  height: auto;
-  padding: 3rem;
-  background: #080808;
-}
-
-.main .container .user-declarations{
-  display: grid;
-  grid-template-columns: 32% 32% 32%;
-  justify-content: space-between;
-}
-
-.main .container .user-declarations.active{
-  display: grid;
-}
-
-.main .container .there-is-no-decleration.active{
-  display: block;
-  height: 100%;
-}
-
-.main .container .inactive{
-  display: none;
-}
-
-.main .container .user-declarations .decleration{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.main .container .user-declarations .decleration img{
+.main .container .account .logout{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: .125rem; 
+  height: 3rem;
+  border-radius: .125rem;
+  background: #db8f1680;
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  margin-top: .5rem;
+  cursor: pointer;
 }
 
-.main .container .there-is-no-decleration {
-  text-align: center;
+.main .container .account .logout:hover{
+  background: #db8f16;
 }
-
-.main .container .there-is-no-decleration p a{
-  color: #d18c1e;
-}
-
-/* ilanlar evet */

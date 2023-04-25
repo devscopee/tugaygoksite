@@ -9,6 +9,8 @@
     <link rel='stylesheet' href='css/media.css'>
 </head>
 <body>
+    <div class='bg-img'></div>
+
     <div id="preloader">
         <img src="img/logo.png" alt="">
     </div>
@@ -19,55 +21,65 @@
 
     <div class="main">
         <div class="container">
-
-
+            
             <div class="account">
-                <div class="general">
-                    <div class="account-information">
-                        <p>Kullanıcı adı: <span class='name'>scope</span></p>
-                        <p>Kimlik kodu: <span class='identification-code'></span></p>
+                <div class="general_info">
+                    <div class="avatar">
+                        <img src="" alt="">
                     </div>
 
-                    <div class="profile">
-                        <img id="profile-picture" src="img/avatar.png">
+                    <div class="text">
+                        <ul>
+                            <b><p>Kullanıcı Adı:</p></b>
 
-                        <div class='import-from-this-computer change-profile-image' onclick="selectProfilePicture()">
-                            <p>Bu Bilgisayardan</p>
-                            <input type="file" id="picture-input" accept="image/*" style="display:none" onchange="displaySelectedPicture(event)">
-                        </div>
+                            <li>
+                                <p class='username'>götelek</p>
+                            </li>
 
-                        <div class='import-from-the-web change-profile-image' onclick="changeProfilePicture()">
-                            <p>Web'de Ara</p>
-                        </div>
+                            <b><p>Kimlik Kodu:</p></b>
 
+                            <li>
+                                <p class='code'>MG316972</p>
+                            </li>
+                        </ul>
                     </div>
+                </div>
+                
 
-                    
+                
+
+                <div class="directions">
+                    <ul>
+                        <li class='subscriber_informations'>
+                            <p>Üyelik Bilgilerim</p>
+                        </li>
+
+                        <li class='order'>
+                            <p>Siparişlerim</p>
+                        </li>
+
+                        <li class='succesful_payments'>
+                            <p>Başarılı Ödemelerim</p>
+                        </li>
+
+                        <li class='promo_codes'>
+                            <p>Promo Kodlarım</p>
+                        </li>
+
+                        <li class='messages'>
+                            <p>Mesajlarım</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logout">
+                    <p>Çıkış Yap</p>
                 </div>
             </div>
 
-            <div class="declerations inactive">
-                <div class="user-declarations">
-                    <div class="decleration">
-                        <img src="img/avatar.png" alt="">
-                    </div>
 
-                    <div class="decleration">
-                        <img src="img/avatar.png" alt="">
-                    </div>
-
-                    <div class="decleration">
-                        <img src="img/avatar.png" alt="">
-                    </div>
-
-                    <div class="decleration">
-                        <img src="img/avatar.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="there-is-no-decleration active">
-                <p>Henüz bir ilan eklemediniz. Eklemek için <a href=''>buraya tıklayın.</a></p>  
+            <div class="content">
+                
             </div>
         </div>
     </div>

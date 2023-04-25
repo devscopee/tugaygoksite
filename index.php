@@ -43,9 +43,9 @@
             <br><br>
             <p class='text'>Pubg Mobile</p>
             <div class='line'></div>
-            <!-- Alt kısım kasalar kısmı -->
+            <!-- Alt kisim kasalar kismi -->
 
-            <div class="items"> <!---hepsini      items      içine aldım--->
+            <div class="items"> <!---hepsini      items      içine aldim--->
                 <div class="product-div pubgm">
                     <div class="gun-images">
                         <img class="gun" src="img/666 (1).png">
@@ -278,7 +278,7 @@
 
                 <div class="product-div pubgm">
                     <div class="gun-images">
-                        <img class="gun" src="img/buz-diyarı.png">
+                        <img class="gun" src="img/buz-diyari.png">
                         <img class="case" src="img/buz-kasa.png" alt="">
                     </div>
                     <div class="title">
@@ -316,8 +316,8 @@
 
                 <div class="product-div pubgm">
                     <div class="gun-images">
-                        <img class="gun" src="img/kırmızı-karakter.png">
-                        <img class="case" src="img/kırmızı.kasa.png" alt="">
+                        <img class="gun" src="img/kirmizi-karakter.png">
+                        <img class="case" src="img/kirmizi.kasa.png" alt="">
                     </div>
                     <div class="title">
                         BÜYÜK UMUT RANDOM HESAP
@@ -332,7 +332,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- valorant kısmı BAŞLAYIŞ yeri -->
+                <!-- valorant kismi BAŞLAYIŞ yeri -->
                 <div class="product-div valo">
                     <div class="gun-images">
                         <img class="gun" src="img/444.png">
@@ -617,8 +617,30 @@
                         </div>
                     </div>
                 </div>
-                <!-- valorant kısmı BİTİŞ yeri -->
+                <!-- valorant kismi BİTİŞ yeri -->
+
+                <div class="decleration valorant">
+                    <img src="img/valorant_banner.png" alt="">
+                </div>
+
+                <div class="decleration pubg_mobile">
+                    <img src="img/pubg_mobile_banner.png" alt="">
+                </div>
+
+                <div class="decleration zula">
+                    <img src="img/zula_banner.png" alt="">
+                </div>
+
+                <div class="decleration wolf_team">
+                    <img src="img/wolf_team_banner.png" alt="">
+                </div>
+
+                <div class="decleration csgo">
+                    <img src="img/csgo_banner.png" alt="">
+                </div>
             </div>
+
+            
 
             <div class='line'></div>
         </div>

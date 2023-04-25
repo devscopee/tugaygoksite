@@ -19,6 +19,24 @@
     background: #db8f16ad;
 }
 
+.navbar_container{
+    display: flex;
+}
+
+.navbar_container .gamer-market{
+    width: 10rem;
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+    padding-block: .75rem;
+    cursor: pointer;
+}
+
+.navbar_container .gamer-market img,
+.navbar_container .gamer-market p{
+    position: absolute;
+}
+
 .directions .section.pubgm{
     background: linear-gradient(to left, #ffffff10, #ffffff01);
 }

@@ -25,7 +25,7 @@
             <div class="adding-decleration-form">
                 <div class="account-general-information">
                     <input type="text" maxlength='60' placeholder='Hesap İsmini Girin'>
-                    <input type="text" maxlength='240' placeholder='Hesap Açıklamasını Girin'>
+                    <input type="text" maxlength='240' placeholder='Hesap Açiklamasini Girin'>
                 </div>
 
                 <div class="account-images">

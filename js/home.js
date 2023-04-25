@@ -3,6 +3,7 @@ const Text = document.querySelector('.main p.text')
 const PubgMobileItems = document.querySelectorAll('.main .container .items .product-div.pubgm')
 const ValorantItems = document.querySelectorAll('.main .container .items .product-div.valo')
 const GamesItems = document.querySelectorAll('.main .container .items .product-div.games')
+const Declerations = document.querySelectorAll('.main .container .items .declerations .decleration')
 
 
 PubgMobileItems.forEach(PubgMobileItem => {
@@ -13,6 +14,9 @@ ValorantItems.forEach(ValorantItem => {
 })
 GamesItems.forEach(GamesItem => {
     GamesItem.style.display = 'none'
+})
+Declerations.forEach(Decleration => {
+    Decleration.style.display = 'none'
 })
 
 
@@ -35,6 +39,9 @@ Sections.forEach(Section => {
             GamesItems.forEach(GamesItem => {
                 GamesItem.style.display = 'flex'
             })
+            Declerations.forEach(Decleration => {
+                Decleration.style.display = 'none'
+            })
         } else if (Section.classList.contains('pubgm') == true){
             Text.innerText = 'Pubg Mobile'
 
@@ -47,6 +54,9 @@ Sections.forEach(Section => {
             GamesItems.forEach(GamesItem => {
                 GamesItem.style.display = 'none'
             })
+            Declerations.forEach(Decleration => {
+                Decleration.style.display = 'none'
+            })
         } else if (Section.classList.contains('valo') == true){
             Text.innerText = 'Valorant'
 
@@ -58,6 +68,24 @@ Sections.forEach(Section => {
             })
             GamesItems.forEach(GamesItem => {
                 GamesItem.style.display = 'none'
+            })
+            Declerations.forEach(Decleration => {
+                Decleration.style.display = 'none'
+            })
+        } else if (Section.classList.contains('declerations') == true){
+            Text.innerText = 'İlanlar'
+
+            PubgMobileItems.forEach(PubgMobileItem => {
+                PubgMobileItem.style.display = 'none'
+            })
+            ValorantItems.forEach(ValorantItem => {
+                ValorantItem.style.display = 'none'
+            })
+            GamesItems.forEach(GamesItem => {
+                GamesItem.style.display = 'none'
+            })
+            Declerations.forEach(Decleration => {
+                Decleration.style.display = 'flex'
             })
         }
     })

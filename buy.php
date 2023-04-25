@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/buy.css">
-    <title>MARAZ GAME - Satın Alım</title>
+    <title>MARAZ GAME - Satin Alim</title>
 </head>
 
 <body bgcolor="#201f28">
@@ -37,7 +37,7 @@
                 </div>
                 <p id="mainPrice"><del>1,000.00 TL</del></p>
                 <p id="salePrice">500.00 TL</p>
-                <input type="submit" value="Hemen Satın Al" id="buyBtn">
+                <input type="submit" value="Hemen Satin Al" id="buyBtn">
             </div>
             <div class="boxs">
                

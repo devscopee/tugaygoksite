@@ -23,7 +23,7 @@
         <div class="container">
             <div class="greeting">
                 <p>
-                    <b><span>götelek</span></b> kullanıcısının sepeti
+                    <b><span>götelek</span></b> kullanicisinin sepeti
                 </p>
             </div>
 
@@ -32,7 +32,7 @@
                     <div class="product">
                         <div class="product-details">
                             <img src="img/avatar.png">
-                            <p class="title">tugay abinin kutsal kasası scope garantili</p>
+                            <p class="title">tugay abinin kutsal kasasi scope garantili</p>
                         </div>
                        
                         <div class="tools">
@@ -50,7 +50,7 @@
                     <div class="product">
                         <div class="product-details">
                             <img src="img/avatar.png">
-                            <p class="title">tugay abinin kutsal kasası scope garantili</p>
+                            <p class="title">tugay abinin kutsal kasasi scope garantili</p>
                         </div>
                        
                         <div class="tools">
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="there-is-no-product inactive">
-                    <p>Henüz ürün eklemediniz. Ürünleri incelemek için <a href="index.php">buraya tıklayın.</a></p>
+                    <p>Henüz ürün eklemediniz. Ürünleri incelemek için <a href="index.php">buraya tiklayin.</a></p>
                 </div>
             </div>
 

@@ -37,7 +37,7 @@
 
             <div class="special-situations">
                 <a href="">Şifremi unuttum</a>
-                <a href="">Kayıt ol</a>
+                <a href="">Kayit ol</a>
             </div>
 
             <div class="quick-login-options">
