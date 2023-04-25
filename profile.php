@@ -25,7 +25,7 @@
             <div class="account">
                 <div class="general_info">
                     <div class="avatar">
-                        <img src="" alt="">
+                        <img src="img/fotograf_cercevesi.png" alt="">
                     </div>
 
                     <div class="text">
@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="logout">
-                    <p>Çıkış Yap</p>
+                    <img src="img/cks_yap_buton.png" alt="">
                 </div>
             </div>
 

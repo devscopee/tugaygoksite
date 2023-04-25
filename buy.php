@@ -6,53 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/buy.css">
-    <title>MARAZ GAME - Satin Alim</title>
+    <title>Maraz Game</title>
 </head>
 
-<body bgcolor="#201f28">
+<body>
     <?php
     include("inc/header.php");
     ?>
-    <div class="container">
 
+    <div class="main">
+        <div class="container">
+            <div class="general">
 
-
-
-        <div class="area">
-            <div class="banner">
-                <img src="https://predunyam.com/images/gallery/63d06d3b1623879233.jpg" alt="FOTOASKO">
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="https://predunyam.com/images/product_m/631317264ae2c95796.jpg" alt="FOTOCNM">
+            <div class="left_side">
+                <div class="account_image">
+                    <img src="img/banner.png" alt="">
                 </div>
-                <!-- <div class="stok">
-                    <div class="circle"><i class="fa-solid fa-check"></i></div>
-                    <p id="stokTxt"></p>
-                </div> -->
-                <p id="desc">YÜKSEK HESAP ÇIKMA GARANTİSİ VERİLMEZ. DESTANSI GÖSTERİŞ HESAP ÇIKMA ŞANSI YÜKSEKTİR.</p>
-                <div class="price">
-                    <h1 id="mainSale">%50</h1>
-                    <p id="saleTxt"></p>
+
+                <div class="account_stats account_video">
+                    <div class="video">
+                        
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="order_number indicator">
+                        <i class="fa-regular fa-hashtag"></i> <p id="order_number">31</p>
+                        </div>
+
+                        <div class="reviews indicator">
+                        <i class="fa-solid fa-eye"></i> <p id="reviews">31</p>
+                        </div>
+
+                        <div class="stock_status indicator in_stock">
+                            <p id="stock_status">Stokta Var</p>
+                        </div>
+
+                        <!--- 
+                         Stokta var => in_stock
+                         Stokta yok => out_stock
+                        --->
+                    </div>
                 </div>
-                <p id="mainPrice"><del>1,000.00 TL</del></p>
-                <p id="salePrice">500.00 TL</p>
-                <input type="submit" value="Hemen Satin Al" id="buyBtn">
             </div>
-            <div class="boxs">
-               
+                
+
+            <div class="right_side">
+                <div class="text_area">
+                    <b><p class='title'>tugay abinin özel kasası scope garantili</p></b>
+                    <p class='description'>sitede satılan en değerli kasadır. kasanın içinden 3 scope çeşitinden en az biri çıkar. scope çıkar çıkmaz gördüyü ilk şeyi **</p>
+
+                    <p class='order_tag'>Hızlı Teslimat</p>
+                </div>
+
+                <div class="purchase">
+                    Satın Al
+                </div>
+            </div>
             </div>
         </div>
-
-
-
-
-
     </div>
-    <?php
-    include("inc/footer.php");
-    ?>
-    <!--Updated By Devilyxrd-->
 </body>
 
 </html>
