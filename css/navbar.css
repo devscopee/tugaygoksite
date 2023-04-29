@@ -1,54 +1,48 @@
-.directions{
+.directions {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
 }
 
-.directions .section{
+.directions .section {
     width: 10rem;
     padding-block: .75rem;
     cursor: pointer;
 }
 
-.directions .section.games{
+.directions .section.games {
     background: #ffffff10;
 }
 
-.directions .section.games.active{
+.directions .section.games.active {
     background: #db8f16ad;
 }
 
-.navbar_container{
-    display: flex;
-}
-
-.navbar_container .gamer-market{
-    width: 10rem;
-    display: flex;
-    margin-bottom: 4rem;
-    justify-content: center;
-    padding-block: .75rem;
-    cursor: pointer;
-}
-
-.navbar_container .gamer-market img,
-.navbar_container .gamer-market p{
-    position: absolute;
-}
-
-.directions .section.pubgm{
+.directions .section.pubgm {
     background: linear-gradient(to left, #ffffff10, #ffffff01);
 }
 
-.directions .section.pubgm.active{
-    background:linear-gradient(to left, #db8f16, #ffffff01) ;
+.directions .section.pubgm.active {
+    background: linear-gradient(to left, #db8f16, #ffffff01);
 }
 
-.directions .section.valo{
+.directions .section.valo {
     background: linear-gradient(to right, #ffffff10, #ffffff01);
 }
 
-.directions .section.valo.active{
+.directions .section.valo.active {
     background: linear-gradient(to right, #db8f16, #ffffff01);
+}
+
+@media only screen and (max-width: 768px) {
+    .directions {
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .directions .section {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }

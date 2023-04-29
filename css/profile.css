@@ -1,90 +1,98 @@
-.bg-img { 
-  position: relative; 
-  height: 100vh;
-  width: 100%;
-  margin-top: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../img/arka_plan_ikonlar.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-direction: column;
-  position: absolute;
-}
-
-
-.main {
+.main{
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.main .container {
+.main .container{
   width: 80%;
+}
+
+.main .container .profile_page{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.main .container .account{
+.main .container .profile_page .account{
   width: auto;
   height: auto;
-  background: #080808;
-  border-radius: .25rem;
   padding: 3rem;
-  z-index: 99;
+  background: #080808;
 }
 
-.main .container .account .general_info{
+.main .container .profile_page .account .profile_picture{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
-.main .container .account .general_info .avatar{
-  width: 8.2rem;
-  height: 8rem;
-  border-radius: 50%;
-  background: #ffffff10;
-  margin-right: 3rem;
+.main .container .profile_page .account .profile_picture #account-picture{
+    width: 6.5rem;
+    border-radius: 50%;
+}
+
+.main .container .profile_page .account .profile_picture #frame{
+  z-index: 2;
+  position: absolute;
+  width: 7rem;
+}
+
+.main .container .profile_page .account .account_general_information{
+  margin-bottom: 2rem;
+}
+
+.main .container .profile_page .account .account_general_information .name{
+  font-size: 1.1rem;
+  color: #db8f16;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main .container .profile_page .account .account_general_information .account_id{
+  font-weight: 500;
+  text-align: center;
+}
+
+.main .container .profile_page .account .directions{
+  margin-bottom: 2rem;
+}
+
+.main .container .profile_page .account .directions ul li{
+  display: flex;
+  transition: all 400ms;
+  position: relative;
   cursor: pointer;
 }
 
-.main .container .account .general_info .avatar img {
-  margin-top: -.500rem;
+.main .container .profile_page .account .directions ul li.active{
+  left: 1rem;
 }
 
-ul{
-  list-style-type: unset !important;
+.main .container .profile_page .logout{
+  display: flex;
+  justify-content: center;
+}
+
+.main .container .profile_page .logout img{
+  transition: opacity 300ms;
   cursor: pointer;
 }
 
-.main .container .account .directions ul li{
-  width: 100%;
-  height: 3rem;
-  background: #ffffff10;
-  border-radius: .125rem;
-  display: flex;
-  align-items: center;
-  padding-inline: 1rem;
-  margin-bottom: .25rem;
-  z-index: 99;
+.main .container .profile_page .logout:hover img{
+  opacity: .8;
 }
 
-.main .container .account .directions ul li:hover{
-  background: #ffffff50;
+.main .container .profile_page .content{
+  width: 55rem;
+  background: #080808;
+  padding: 3rem;
 }
 
-.main .container .account .logout{
-  width: 100%;
-  height: 3rem;
-  border-radius: .125rem;
-  display: flex;
-  align-items: center;
-  margin-left: 4rem;
-  padding-inline: 1rem;
-  margin-top: .5rem;
-  cursor: pointer;
+.main .container .profile_page .content div{
+  display: none;
+}
+
+.main .container .profile_page .content .active{
+  display: unset;
 }

@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class='bg-img'></div>
     <div id="preloader">
         <img src="img/logo.png" alt="">
     </div>
@@ -32,9 +33,17 @@
                 </div>
 
                 <div class="image">
-                    <img src="" alt="">
+                    <img src="img/slider_alsverise_basla.png" alt="">
                 </div>
 
+                <div class="image">
+                    <img src="img/bizi_sosyal_medyada_takip_edin.png" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="img/slider_buz.png" alt="">
+                </div>
+            
                 <div class="buttons">
                     <a onclick='nextimage(-1)' class="prev">&#10094;</a>
                     <a onclick="nextimage(+1)" class="next">&#10095;</a>
@@ -278,7 +287,7 @@
 
                 <div class="product-div pubgm">
                     <div class="gun-images">
-                        <img class="gun" src="img/buz-diyari.png">
+                        <img class="gun" src="img/buz-diyarı.png">
                         <img class="case" src="img/buz-kasa.png" alt="">
                     </div>
                     <div class="title">
@@ -316,8 +325,8 @@
 
                 <div class="product-div pubgm">
                     <div class="gun-images">
-                        <img class="gun" src="img/kirmizi-karakter.png">
-                        <img class="case" src="img/kirmizi.kasa.png" alt="">
+                        <img class="gun" src="img/kırmızı-karakter.png">
+                        <img class="case" src="img/kırmızı.kasa.png" alt="">
                     </div>
                     <div class="title">
                         BÜYÜK UMUT RANDOM HESAP
@@ -619,7 +628,7 @@
                 </div>
                 <!-- valorant kismi BİTİŞ yeri -->
 
-                <div class="decleration valorant">
+                <!-- <div class="decleration valorant">
                     <img src="img/valorant_banner.png" alt="">
                 </div>
 
@@ -637,7 +646,7 @@
 
                 <div class="decleration csgo">
                     <img src="img/csgo_banner.png" alt="">
-                </div>
+                </div> -->
             </div>
 
             

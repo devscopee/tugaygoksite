@@ -1,43 +1,43 @@
-.main{
+/* Default styles */
+.main {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.main .container{
+.main .container {
     width: 80%;
 }
 
-
-.main .container .greeting{
+.main .container .greeting {
     display: grid;
     place-items: center;
     margin-bottom: 1rem;
     font-size: 1rem;
 }
 
-.main .container .products{
+.main .container .products {
     margin-bottom: 2rem;
 }
 
-.main .container .products .active{
+.main .container .products .active {
     display: flex;
 }
 
-.main .container .products .inactive{
+.main .container .products .inactive {
     display: none;
 }
 
 .main .container .products .there-is-no-product,
 .main .container .products .bag,
-.main .container .greeting{
+.main .container .greeting {
     width: 100%;
     padding: 3rem;
     border-radius: .25rem;
     background: #080808;
 }
 
-.main .container .products .bag{
+.main .container .products .bag {
     display: block;
 }
 
@@ -45,12 +45,12 @@
     justify-content: center;
     min-height: 15rem;
 }
-  
-.main .container .products .there-is-no-product p a{
+
+.main .container .products .there-is-no-product p a {
     color: #d18c1e;
 }
 
-.main .container .products .bag .product{
+.main .container .products .bag .product {
     width: 100%;
     padding: 1.5rem;
     border-radius: .25rem;
@@ -63,28 +63,27 @@
     transition: background 300ms;
 }
 
-.main .container .products .bag .product:hover{
+.main .container .products .bag .product:hover {
     background: #ffffff15;
 }
 
-
-.main .container .products .bag .product .product-details{
+.main .container .products .bag .product .product-details {
     display: flex;
     align-items: center;
 }
 
-.main .container .products .bag .product .product-details img{
+.main .container .products .bag .product .product-details img {
     width: 3rem;
     height: 3rem;
     margin-right: 1.5rem;
 }
 
-.main .container .products .bag .product .tools{
+.main .container .products .bag .product .tools {
     display: flex;
     align-items: center;
 }
 
-.main .container .products .bag .product .tools .remove{
+.main .container .products .bag .product .tools .remove {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -94,16 +93,16 @@
     margin-left: .5rem;
 }
 
-.main .container .products .bag .product .tools .remove i{
+.main .container .products .bag .product .tools .remove i {
     color: #fff;
     transition: 300ms;
 }
 
-.main .container .products .bag .product .tools .remove:hover i{
+.main .container .products .bag .product .tools .remove:hover i {
     color: #dd3535;
 }
 
-.main .container .complete-shopping{
+.main .container .complete-shopping {
     width: 100%;
     background: #d18c1e;
     padding: 1.5rem 3rem;
@@ -114,6 +113,63 @@
     transition: 300ms;
 }
 
-.main .container .complete-shopping:hover{
+.main .container .complete-shopping:hover {
     background: #9e6811;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .main .container {
+        width: 90%;
+    }
+
+    .main .container .products .bag .product {
+        font-size: 1rem;
+    }
+
+    .main .container .complete-shopping {
+        padding: 1rem 2rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .main .container {
+        width: 95%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .main .container {
+            width: 90%;
+        }
+
+        .main .container .greeting {
+            font-size: 0.9rem;
+        }
+
+        .main .container .products .there-is-no-product {
+            min-height: 10rem;
+        }
+
+        .main .container .products .bag .product {
+            font-size: 1rem;
+        }
+
+        .main .container .products .bag .product .product-details img {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-right: 1rem;
+        }
+
+        .main .container .products .bag .product .tools .remove {
+            width: 2rem;
+            height: 2rem;
+            margin-left: 0.3rem;
+        }
+
+        .main .container .complete-shopping {
+            padding: 1rem 2rem;
+            font-size: 0.9rem;
+        }
+    }
 }

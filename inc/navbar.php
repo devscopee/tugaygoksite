@@ -22,11 +22,11 @@
             </div>
         </div>
 
-        <div class="gamer-market">
+        <!-- <div class="gamer-market">
             <p>Oyuncu Pazarı</p>
 
             <img src="img/red_btn.gif" alt="">
-        </div>
+        </div> -->
     </div>
     
 </body>
