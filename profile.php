@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class='bg-img'></div>
+    <div class="light"></div>
 
     <div id="preloader">
         <img src="img/logo.png" alt="">
@@ -21,76 +22,54 @@
 
     <div class="main">
         <div class="container">
-            <div class="profile_page">
-                <div class="account">
-                    <div class="profile_picture">
-                        <img src="img/fotograf_cercevesi.png" alt="" id="frame">
-                        <img src="img/avatar.png" alt="" id="account-picture">
-                    </div>
-                    
-                    <div class="account_general_information">
-                        <p class="name"><span id="name">Tugay Abi UC</span></p>
-                        <p class="account_id">ID: <span id="id">3131313131</span></p>
-                    </div>
+            <div class="left_side">
+                <div class="sidebar_colorful_border">
+                    <div class="sidebar">
+                        <div class="profile_image">
+                            <img id='frame' src="img/profile/profile_frame.png" alt="">
+                            <img id='avatar' src="img/avatar.png" alt="">
+                        </div>
 
-                    <div class="directions">
-                        <ul>
-                            <li class='subscription-information active'>
-                                <img src="img/satir_isareti.png" alt=""> <p>Üyelik Bilgilerim</p>
-                            </li>
+                        <div class="informations">
+                            <p class="name"><span id="name">ardağ maden suyu</span></p>
+                            <p class="id"><span id="id">ID: MG12345678</span></p>
+                        </div>
 
-                            <li class='orders'>
-                                <img src="img/satir_isareti.png" alt=""> <p>Siparişlerim</p>
-                            </li>
+                        <div class="directions">
+                            <ul>
+                                <li>
+                                    <p>Siparişlerim</p>
+                                </li>
 
-                            <li class='successful-payments'>
-                                <img src="img/satir_isareti.png" alt=""> <p>Başarılı Ödemelerim</p>
-                            </li>
+                                <li>
+                                    <p>Bakiye Yükle</p>
+                                </li>
 
-                            <li class='promo-codes'>
-                                <img src="img/satir_isareti.png" alt=""> <p>Promo Kodlarım</p>
-                            </li>
-
-                            <li class='messages'>
-                                <img src="img/satir_isareti.png" alt=""> <p>Mesajlarım</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="logout">
-                        <img src="img/cks_yap_buton.png" alt="">
+                                <li>
+                                    <p>Destek</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="right_side">
                 <div class="content">
-                    <div class="subscription-information active">
-                        <?php
-                            include('inc/subscription-information.php')
-                        ?>
-                    </div>
+                    <div class="balance">
+                        <div class="balance_button">
+                            <a href="add-balance.php">
+                                <div>
+                                    <p>Bakiye yükle</p>
 
-                    <div class="orders">
-                        <?php
-                            include('inc/orders.php')
-                        ?>
-                    </div>
-
-                    <div class="successful-payments">
-                        <?php
-                            include('inc/successful-payments.php')
-                        ?>
-                    </div>
-
-                    <div class="promo-codes">
-                        <?php
-                            include('inc/promo-codes.php')
-                        ?>
-                    </div>
-
-                    <div class="messages">
-                        <?php
-                            include('inc/messages.php')
-                        ?>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="images">
+                            <img id='background' src="img/profile/back_div.png" alt="">
+                            <img id='effects' src="img/profile/effects.png" alt="">
+                        </div>
+                        
                     </div>
                 </div>
             </div>

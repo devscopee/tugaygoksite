@@ -1,39 +1,15 @@
-const Tabs = document.querySelectorAll('.main .container .profile_page .account .directions ul li')
+const background = document.querySelector('.main .container .right_side .content .balance .images')
+const button = document.querySelector('.main .container .right_side .content .balance .balance_button')
+const effects = document.getElementById('effects')
 
-const Contents = document.querySelectorAll('.main .container .profile_page .content div')
+background.addEventListener('mouseover', () => {
+    effects.classList.add('animated')
+})
 
-const SubscriptionInformation = document.querySelector('.main .container .profile_page .content .subscription-information')
-const Orders = document.querySelector('.main .container .profile_page .content .orders')
-const SuccessfulPayments = document.querySelector('.main .container .profile_page .content .successful-payments')
-const PromoCodes = document.querySelector('.main .container .profile_page .content .promo-codes')
-const Messages = document.querySelector('.main .container .profile_page .content .messages')
+background.addEventListener('mouseout', () =>{
+    effects.classList.remove('animated')
+})
 
-Tabs.forEach(Tab => {
-    SubscriptionInformation.classList.add('active')
-
-
-    Tab.addEventListener('click', () => {
-        Tabs.forEach(Tab => {
-            Tab.classList.remove('active')
-        })
-
-        Tab.classList.add('active')
-
-        if (Tab.innerText == 'Üyelik Bilgilerim'){
-            Contents.forEach(Content => Content.classList.remove('active'))
-            SubscriptionInformation.classList.add('active')
-        } else if (Tab.innerText == 'Siparişlerim'){
-            Contents.forEach(Content => Content.classList.remove('active'))
-            Orders.classList.add('active')
-        } else if (Tab.innerText == 'Başarılı Ödemelerim'){
-            Contents.forEach(Content => Content.classList.remove('active'))
-            SuccessfulPayments.classList.add('active')
-        } else if (Tab.innerText == 'Promo Kodlarım'){
-            Contents.forEach(Content => Content.classList.remove('active'))
-            PromoCodes.classList.add('active')
-        } else if (Tab.innerText == 'Mesajlarım'){
-            Contents.forEach(Content => Content.classList.remove('active'))
-            Messages.classList.add('active')
-        }
-    })
+button.addEventListener('mouseover', () => {
+    effects.classList.add('animated')
 })

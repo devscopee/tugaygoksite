@@ -11,7 +11,9 @@
     <header class='header'>
         <div class='container'>
             <div class='logo'>
-                <img src="img/logo.png" alt=""> <p>Maraz Game</p>
+                <a href="index.php">
+                    <img src="img/logo.png" alt=""> <p>Maraz Game</p>
+                </a>
             </div>
 
             <div class='finder'>

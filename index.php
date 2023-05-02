@@ -43,11 +43,6 @@
                 <div class="image">
                     <img src="img/slider_buz.png" alt="">
                 </div>
-            
-                <div class="buttons">
-                    <a onclick='nextimage(-1)' class="prev">&#10094;</a>
-                    <a onclick="nextimage(+1)" class="next">&#10095;</a>
-                </div>
             </div>
             <br><br>
             <p class='text'>Pubg Mobile</p>

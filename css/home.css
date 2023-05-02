@@ -103,7 +103,6 @@
     border-radius: .625rem;
     transition: 0.3s;
     padding-bottom: 4.5vh;
-    background-image: url('blue_header');
     animation: flame 0.3s infinite alternate;
     display: flex;
     justify-content: center;
@@ -376,4 +375,39 @@
         top: 40%;
     }
 
+}
+
+
+
+@media only screen and (max-width:875px) {
+    .items {
+        grid-template-columns: 100%;
+    }
+
+    .product-div {
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .main .container .items {
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+}
+
+@media only screen and (min-width:1700px) {
+    .main .container .items {
+        grid-template-columns: 19% 19% 19% 19% 19%;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .main .container .items {
+        grid-template-columns: 49% 49%;
+    }
+
+    .main .container .slider-container .image img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
