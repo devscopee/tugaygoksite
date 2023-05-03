@@ -71,6 +71,28 @@
                         </div>
                         
                     </div>
+
+                    <div class="inputs_container">
+                        <p>Kişisel Bilgiler</p>
+
+                        <div class="inputs">
+                            <div class="input">
+                                <input type="text" placeholder='Kullanıcı Adı'>
+                            </div>
+
+                            <div class="input">
+                                <input type="text" placeholder='Telefon No'>
+                            </div>
+
+                            <div class="input">
+                                <input type="text" placeholder='E-Posta'>
+                            </div>
+
+                            <div class="input">
+                                <input type="text" placeholder='Doğum Tarihi'>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div> 
