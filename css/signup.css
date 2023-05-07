@@ -1,0 +1,199 @@
+body {
+    background: #000000;
+}
+
+.bg-img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    z-index: 2;
+}
+
+.main .signup-form {
+    width: 22rem;
+    height: auto;
+    background: #00000080;
+    color: #fff;
+    border-radius: .25rem;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.main .signup-form .btn-text {
+    font-size: .8rem;
+}
+
+.main .signup-form .greeting {
+    margin-bottom: 1.5rem;
+}
+
+.main .signup-form .greeting p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.main .signup-form .inputs {
+    margin-bottom: 1.5rem;
+}
+
+.main .signup-form .inputs .input {
+    margin-bottom: .5rem;
+}
+
+.main .signup-form .inputs .input input {
+    all: unset;
+    width: calc(100% - 1.5rem);
+    height: 2.75rem;
+    background: #ffffff10;
+    border-radius: 0.3rem;
+    padding-inline: 0.75rem;
+}
+
+.main .signup-form .inputs .input p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.main .signup-form .signup {
+    width: 100%;
+    height: 2.75rem;
+    border-radius: .25rem;
+    background: #db8f16;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    transition: background 300ms;
+}
+
+.main .signup-form .signup:hover {
+    background: #9e6811;
+}
+
+.main .signup-form .special-situations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.main .signup-form .special-situations p{
+    font-size: .8rem;
+    color: #ffffffbb;
+}
+
+.main .signup-form .special-situations a {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main .signup-form .quick-signup-options .signup-option {
+    width: 100%;
+    height: 2.75rem;
+    padding-inline: .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .75rem;
+    cursor: pointer;
+    transition: background 300ms;
+    font-weight: 500;
+}
+
+.main .signup-form .quick-signup-options .signup-option i {
+    font-size: 1.1rem;
+}
+
+.main .signup-form .quick-signup-options .signup-option p{
+    margin-left: .25rem;
+    font-size: 1rem;
+
+}
+
+.main .signup-form .quick-signup-options .steam-signup {
+    background: #2a475e;
+}
+
+.main .signup-form .quick-signup-options .steam-signup:hover {
+    background: #2a475edd;
+}
+
+.main .signup-form .quick-signup-options .discord-signup {
+    background: #7289da;
+}
+
+.main .signup-form .quick-signup-options .discord-signup:hover {
+    background: #7289dadd;
+}
+
+.main .signup-form .quick-signup-options .tiktok-signup{
+    background: #efefef;
+    color: #0f0f0f;
+    transition: background 300ms;
+}
+
+.main .signup-form .quick-signup-options .tiktok-signup:hover{
+    background: #efefefdd;
+
+}
+
+.main .signup-form .quick-signup-options .tiktok-signup i{
+    color: #d83e3e;
+}
+
+@media only screen and (max-width:1100px){
+    .main .signup-form{
+        padding: 1rem 1.25rem;
+    }
+
+    .main .signup-form{
+        width: 17rem;
+    }
+
+    .main .signup-form .inputs .input input,
+    .main .signup-form .quick-signup-options .signup-option,
+    .main .signup-form .signup{
+        height: 2rem;
+    }
+
+    .main .signup-form .inputs .input input,
+    .main .signup-form .quick-signup-options .signup-option p,
+    .main .signup-form .quick-signup-options .signup-option i,
+    .main .signup-form .signup p{
+        font-size: .7rem !important;
+    }
+
+    .main .signup-form .quick-signup-options .signup-option img{
+        width: 14px;
+    }
+}

@@ -1,0 +1,215 @@
+.bg-img {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('img/arka_plan_ikonlar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  position: absolute;
+}
+
+.main * {
+  z-index: 2;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main .container {
+  width: 80%;
+
+}
+
+.main .container .general {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+.main .container .general .left_side .account_image {
+  width: 50rem;
+  margin-bottom: .75rem;
+  border: 1px solid orange;
+  box-shadow: inset;
+}
+
+.main .container .general .left_side .account_image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: .25rem;
+}
+
+.main .container .general .left_side .account_stats.account_video {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.main .container .general .left_side .account_stats.account_video .video {
+  width: 18rem;
+  height: 10rem;
+  border-radius: .25rem;
+  background: #ccc;
+}
+
+.main .container .general .left_side .account_stats.account_video .stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .container .general .left_side .account_stats.account_video .stats .indicator {
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  margin-bottom: auto;
+  display: flex;
+  place-items: center;
+  margin-left: .5rem;
+  transition: background 300ms;
+  cursor: pointer;
+}
+
+.main .container .general .left_side .account_stats.account_video .stats .indicator i {
+  margin-right: .25rem;
+}
+
+.main .container .general .left_side .account_stats.account_video .stats .order_number,
+.main .container .general .left_side .account_stats.account_video .stats .reviews {
+  background: #ff9d00;
+}
+
+/* .main .container .general .left_side .account_stats.account_video .stats .order_number:hover,
+.main .container .general .left_side .account_stats.account_video .stats .reviews:hover{
+  background: #9e6811;
+} */
+
+.main .container .general .left_side .account_stats.account_video .stock_status.in_stock {
+  background: rgba(134, 135, 134, 0.815);
+}
+
+.main .container .general .right_side .text_area {
+  width: 30rem;
+  padding: 3rem;
+  background: #080808;
+  border-radius: .25rem .25rem 0 0;
+}
+
+.main .container .general .right_side .text_area .title {
+  margin-bottom: .5rem;
+}
+
+.main .container .general .right_side .text_area .order_tag {
+  width: 7rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .75rem;
+  background: #db8f16;
+  font-size: .8rem;
+  margin-top: 2rem;
+}
+
+.main .container .general .right_side .purchase {
+  padding: 1rem 2rem;
+  border-radius: 0 0 .25rem .25rem;
+  text-align: center;
+  background: green;
+  transition: background 300ms;
+  cursor: pointer;
+}
+
+.main .container .general .right_side .purchase:hover {
+  background: rgb(0, 255, 0);
+}
+
+.info-content {
+  margin-top: 5vh;
+  background-color: #080808;
+  border-radius: 5px;
+}
+
+.title-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.lead {
+  font-weight: 600;
+}
+
+.title {
+  padding: 5px;
+  width: 100%;
+}
+
+.lead:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.box-info {
+  border-top: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-img {
+    margin-top: 5rem;
+  }
+
+  .main .container {
+    width: 90%;
+  }
+
+  .main .container .general {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+  }
+
+  .main .container .general .left_side .account_image {
+    width: 100%;
+  }
+
+  .main .container .general .left_side .account_stats.account_video {
+    flex-direction: column;
+  }
+
+  .main .container .general .left_side .account_stats.account_video .video {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+
+  .main .container .general .right_side .text_area {
+    width: 100%;
+    padding: 2rem;
+    border-radius: .25rem;
+  }
+
+  .main .container .general .right_side .text_area .order_tag {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .main .container .general .right_side .purchase {
+    padding: 1rem;
+    border-radius: .25rem;
+  }
+
+  .info-content {
+    margin-top: 2rem;
+  }
+}

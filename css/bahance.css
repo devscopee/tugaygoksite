@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle, rgba(11, 11, 11, 1) 0%, rgba(30, 32, 34, 1) 100%);
+  color: #fff;
+}
+
+.bg_img {
+  height: 80vh;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg_img {
+    height: 50vh;
+    margin-top: 5rem;
+  }
+}

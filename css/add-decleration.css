@@ -1,0 +1,28 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main .container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main .container .greeting {
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #d18c1e70, #d18c1e04, #d18c1e00);
+}
+
+@media only screen and (max-width: 768px) {
+  .main .container {
+    width: 90%;
+  }
+
+  .main .container .greeting {
+    padding: 8px;
+  }
+}

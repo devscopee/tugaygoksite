@@ -1,0 +1,122 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .container {
+    width: 80%;
+}
+
+.main .container .colorful_order_header{
+    width: 100%;
+    height: 10rem;
+    padding: .125rem;
+    background: linear-gradient(to right, rgba(12, 180, 180, 0.5), rgba(12, 180, 180, 0.05), transparent);
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+
+.main .container .order_header{
+    width: 100%;
+    height: 100%;
+    border-radius: .125rem;
+    background: #08080840;
+    display: flex;
+    align-items: center;
+}
+
+.main .container .order_header img{
+    width: 18rem;
+    margin-right: 2rem;
+}
+
+.main .container .order_header p{
+    color: rgb(12, 180, 180);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.main .container .colorful_orders {
+    padding: .125rem;
+    border-radius: .25rem;
+    background: linear-gradient(#db8f16, rgb(12, 180, 180));
+    opacity: .8;
+}
+
+
+.main .container .orders {
+    background: #080808ea;
+    padding: 4rem 1rem 1rem 1rem;
+    border-radius: .125rem;
+}
+
+.main .container .orders .order {
+    background: #ffffff10;
+    border-radius: .25rem;
+    transition: background 300ms;
+    cursor: pointer;
+}
+
+.main .container .orders .order:hover {
+    background: #ffffff20;
+}
+
+.main .container .orders .row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 60% 15% 15%;
+    padding-left: 2rem;
+    align-items: center;
+    padding-block: .25rem;
+}
+
+.main .container .orders .title p {
+    font-size: .85rem;
+    opacity: .6;
+}
+
+.main .container .orders .row .name {
+    display: flex;
+    align-items: center;
+}
+
+.main .container .orders .row .name img {
+    width: 4rem;
+    margin-right: .75rem;
+}
+
+
+.bg-img {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.main * {
+    z-index: 1;
+}
+
+
+@media only screen and (max-width:650px){
+    .main .container .order_header{
+        justify-content: center;
+    }
+    .main .container .order_header img{
+        display: none;
+    }
+}

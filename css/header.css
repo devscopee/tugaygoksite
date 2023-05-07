@@ -1,0 +1,257 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/werwer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.header * {
+    z-index: 5;
+}
+
+.header .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .logo,
+.header .container .logo a {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.header .container .logo img {
+    width: 2.25rem;
+    margin-right: .75rem;
+}
+
+.header .container .logo p {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.header .container .right_side_container{
+    display: flex;
+}
+
+.header .container .right_side_container .finder {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-right: 1rem;
+}
+
+.header .container .right_side_container .finder .input {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header .container .right_side_container .finder .input input {
+    all: unset;
+    width: 20rem;
+    height: 2.5rem;
+    background: #fff;
+    border-radius: .5rem 0rem 0rem .5rem;
+    padding-inline: .75rem;
+    color: #0f0f0f;
+}
+
+#add_button {
+    background-color: green;
+    transition: background 300ms;
+}
+
+.header .container .right_side_container .finder .search {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0rem .5rem .5rem 0rem;
+    background: #d18c1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 300ms;
+    cursor: pointer;
+}
+
+.header .container .right_side_container .finder .search:hover {
+    background: #9e6811;
+}
+
+.header .container .right_side_container .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+}
+
+.header .container .right_side_container .buttons .button.add-decleration,
+.header .container .right_side_container .buttons .button.add-balance {
+    padding-inline: .75rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .75rem;
+    cursor: pointer;
+}
+
+.header .container .right_side_container .buttons .button.add-decleration,
+.header .container .right_side_container .buttons .button.login {
+    background: #d18c1e;
+    transition: background 300ms;
+}
+
+.header .container .right_side_container .buttons .shop_text,
+.header .container .right_side_container .buttons .account_text{
+    display: none;
+}
+
+
+.header .container .right_side_container .buttons .button.add-decleration:hover,
+.header .container .right_side_container .buttons .button.login:hover {
+    background: #9e6811;
+}
+
+.header .container .right_side_container .buttons .button#add_button:hover {
+    background-color: rgb(17, 195, 17);
+}
+
+.header .container .right_side_container .buttons .account a {
+    display: flex;
+    align-items: center;
+}
+
+.header .container .right_side_container .buttons .account a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+
+.header .container .right_side_container .buttons .shop {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: #ffffff10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container .right_side_container .login{
+    padding-inline: .75rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    background: #d18c1e;
+    cursor: pointer;
+    transition: background 300ms;
+    display: flex;
+    align-items: center;
+}
+
+.header .container .right_side_container .login:hover{
+    background: #9e6811;
+}
+
+.header .container .right_side_container .buttons.active {
+    display: flex;
+}
+
+.header .container .right_side_container .buttons.inactive {
+    display: none;
+}
+
+.header .container .right_side_container .login.active{
+    display: flex;
+}
+
+.header .container .right_side_container .login.inactive{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .header .container {
+        width: 92% !important;
+    }
+
+    .header .container .right_side_container .finder .input input {
+        width: 12.5rem !important;
+    }
+
+    .header .container{
+        font-size: .85rem !important;
+    }
+
+    .header .container .right_side_container{
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:975px){
+    .header .container .right_side_container .finder .input input{
+        width: 10rem !important;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .header .container .right_side_container,
+    .header .container{
+        flex-direction: column !important;
+    }
+
+    .header {
+        height: auto;
+        padding-block: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .header .container .logo {
+        justify-content: center;
+    }
+
+    .header .container .right_side_container .buttons {
+        justify-content: center !important;
+    }
+
+    .header .container .right_side_container .finder {
+        margin-block: 1rem;
+    }
+
+    .header .container .right_side_container .finder .input input {
+        width: 30rem !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .header .container .right_side_container .finder .input input {
+        width: auto !important;
+    }
+
+    .header .container .right_side_container .buttons{
+        flex-wrap: wrap;
+    }
+    
+    .header .container .right_side_container .buttons .button{
+        margin-top: .75rem;
+    }
+
+    .header .container .right_side_container .buttons .shop_text,
+    .header .container .right_side_container .buttons .account_text{
+        display: block;
+    }
+
+}
+

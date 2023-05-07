@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61.4375rem;
+}
+
+.main .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .container .left_side .sidebar_colorful_border {
+  margin-top: 8rem;
+  padding: .125rem;
+  border-radius: .25rem;
+  background: linear-gradient(#db8f16, green);
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar {
+  background: #080808ea;
+  width: 22rem;
+  padding: 2rem;
+  border-radius: .125rem;
+  height: 25rem;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .profile_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .informations .name {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .directions ul {
+  margin-top: 50px;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .directions ul li {
+  margin-top: 20px;
+  background: #db8f1620;
+  border: .1rem solid #db8f1690;
+  padding: 1rem 1rem;
+  border-radius: .50rem;
+  margin-bottom: .5rem;
+  transition: background 300ms;
+  cursor: pointer;
+}
+
+.main .container .left_side .sidebar_colorful_border .sidebar .directions ul li:hover {
+  background: #db8f1690;
+}
+
+
+/*                                                  .*/
+
+.main .container .right_side .content .balance {
+  margin-right: 5rem;
+  margin-top: 5rem;
+  width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.main .container .right_side .content .balance .images {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.main * {
+  z-index: 1;
+}
+
+
+
+.main .container .right_side .content .inputs_container {
+  margin-top: 4.375rem;
+  background-image: url("/img/sag_dikdortgen.png");
+  height: 500px;
+  margin-left: 4.0625rem;
+  width: 90rem;
+  padding: 3rem 4rem;
+  border-radius: .5rem;
+}
+
+.main .container .right_side .content .inputs_container .mainArea {
+  margin-top: 7.8125rem;
+  width: 65rem;
+  background-color: transparent;
+  height: 9.375rem;
+}
+
+.main .container .right_side .content .inputs_container .mainArea .areaOne {
+  width: inherit;
+  height: 4.6875rem;
+  float: left;
+  background-color: transparent;
+  padding: .3125rem;
+  cursor: pointer;
+}
+
+.main .container .right_side .content .inputs_container .mainArea .areaOne ul li {
+  float: left;
+  margin-left: 1.25rem;
+  background-color: transparent;
+  padding: 1rem;
+  width: 9.375rem;
+  text-align: center;
+  border-radius: .625rem;
+  border: .125rem solid green;
+}
+
+.main .container .right_side .content .inputs_container .mainArea .areaTwo {
+  width: inherit;
+  height: 4.6875rem;
+  float: left;
+  background-color: transparent;
+  padding: .625rem;
+}
+
+.main .container .right_side .content .inputs_container .mainArea .areaTwo ul li {
+  float: left;
+  margin-left: 1.5625rem;
+}
+
+.main .container .right_side .content .inputs_container .mainArea .areaTwo ul li input {
+  width: 29.375rem;
+  height: 3.125rem;
+  border-radius: .625rem;
+  background-color: transparent;
+  border: 2px solid green;
+  outline: none;
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.main .container .right_side .content #doPay {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 700px;
+  height: 50px;
+  background-color: rgba(6, 175, 6, 0.116);
+  border-radius: 10px;
+  border: 2px solid green;
+  color: rgb(6, 202, 6);
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  height: 990px;
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
